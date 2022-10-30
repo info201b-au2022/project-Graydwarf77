@@ -2,7 +2,7 @@
 ##### Authors
 * Grayson Ellerd, graysone@uw.edu
 * Keaton Staggs, keatun@uw.edu
-* Alaia Wang, yingxw3@uw.edu
+* Yingxuan Wang, yingxw3@uw.edu
 * Netra Krishnan,
 
 ##### Affiliation
@@ -12,7 +12,7 @@
 Autumn 2022
 
 ### Abstract
-
+Our main question is suicide rates among adolescents. This question is important because adolescents account for an increasing proportion of suicide rates. To address the question, we will. . .
 
 ### Keywords
 - Suicide
@@ -22,10 +22,20 @@ Autumn 2022
 - Mental Health
 
 ## Introduction
+According to a study of 14 U.S. states published in the JAMA Pediatrics: Adolescents between the ages of 10 and 19 accounted for 6.5 percent of all suicides in 2020, a dramatic increase from previous years. Also, according to the National Foundation for Suicide Prevention, suicide is the third leading cause of death for adolescents and the second leading cause of death for college students. Adolescents commit suicide for many reasons, both internal and external. We collected data, explored, and classified them, summed up the main reasons for suicide by adolescents and wanted to urge everyone to effectively avoid them.
 
 ## Problem Domain
+If one were to ask a large group of adolescents what their biggest concern in life was now, there is a good chance that a large group would say that they are over stressed and feel trapped in a dying world. This outlook, which seems to grow more common by the day, is likely to have contributed to the massive mental health and subsequently suicidal ideation crisis that plagues much of the world today. To paint an idea of the scope of the issue, Jane Brody of the New York Times reports “the rate of suicide among those aged 10 to 24 increased dramatically — by 56 percent — between 2007 and 2017”, a deeply troubling increase (Brody, 2019). Furthermore, the World Health Organization has found that “Depression is one of the leading causes of illness and disability among adolescents, and suicide is the second leading cause of death in people aged 15–19 years” (Adolescents and Young, 2022). There is a severe mental health crisis that is crippling the youth of the world, and it is our responsibility to act, and do what we can to shed light on this issue. There is not only the lives and experiences of countless people at stake, but entire communities are under threat of being ripped apart if this crisis is not addressed. Despite this, many still feel that mental health, and the crisis occurring, should not be discussed, creating a stigma around the topic. This has actively harmed many youths struggling with mental health or a mental illness, as nearly 60% of youth with major depression did not receive any mental health treatment (The State, 2022). Despite the pushback on mental health education and treatment, the time has come to treat mental health with the respect it deserves. The most obvious direct stakeholders of this issue include adolescents and their families. Their experiences and values towards this topic vary to an extreme extent, leading to a plethora of different approaches to the suicidal ideation crisis. When one considers indirect stakeholders, it would be easier to name who is not one, as anybody who interacts with these direct stakeholders will be affected in some way because of how mental illness affects every facet of a direct stakeholder’s life. Data scientists must be extremely careful with technology surrounding the issue of suicidal ideation. Technology can be exceedingly useful in both treatment and research efforts when it comes to the mental health crisis, but they must be cautious not to turn the unique stories of the millions of adolescents that are suffering from suicidal ideation into simple numbers. Ultimately, every person is at a different state when it comes to their mental health, and professionals seeking to utilize technology to fight suicidal ideation must keep this thought in mind if they want to be successful.
 
 ## Research Questions
+<ol>
+<li>How do suicide rates compare between male and female around the world? This question is important because analyzing this problem can give us a broader understanding of groups that are most strongly affected by suicidal ideation, which can help people develop mental health treatments that are more strongly targeted towards these groups. </li>
+
+<li> How do suicide rates for adolescents in the United States compare to other parts of the world? This is important because it educates us (as Americans) to the problem of suicidal ideation in adolescents around the globe. It allows Americans to understand the current mental health crisis on a more global scale, which could help us come up with global solutions, not just tunneling on the United States. </li>
+
+<li> How does the rate of human resources for mental health compare to suicide rate for countries around the world? This question is important because it allows us to see how suicide rates may be affected by a stronger or weaker infrastructure when it comes to mental health. This allows us to partially understand what solutions could be implemented to lower rates of adolescent suicide
+</li>
+</ol>
 
 ## The Dataset
 | Dataset      | Crude Suicide Rates | Second Dataset     | Third Dataset     |
