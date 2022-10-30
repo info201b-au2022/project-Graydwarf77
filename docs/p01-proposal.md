@@ -38,17 +38,21 @@ If one were to ask a large group of adolescents what their biggest concern in li
 </ol>
 
 ## The Dataset
-| Dataset      | Crude Suicide Rates | Second Dataset     | Third Dataset     |
+| Dataset      | Mental Health and Suicide Rates | Second Dataset     | Third Dataset     |
 | :---        |    :----:   |          :---: |           ---: |
-| Oberservations      | 549       | Here's this   | Here's this   |
-| Variables   | 10        | And more      |And more      |
+| Oberservations      | 656       | Here's this   | Here's this   |
+| Variables   | 16        | And more      |And more      |
 
-##### Crude Suicide Rates Data
+Illustrated through the Problem Domain, our main area of focus is on adolescents and the drastic rate of suicide as a result of poor mental health. In the first datafile from the _Mental Health and Suicide Rates_ dataset, _Crude Suicide Rates_, data has been collected for the suicide rates (per 100,000 people) for various countries across the world. This datafile includes variables for country, sex, and ranges of ages. Specifically, the column "10to19" will enable analysis on the suicide rates of adolescents within various countries, and in comparison to other age groups. Connecting to our first research question, the variable "sex" will be used to analyze the comparison between suicide rates regarding gender. Our second research question focuses on examining how suicide rates for adolescents within the United States compare to other countries around the world. Using the last variable within the datafile, we will be able to analyze the rates of suicide for ages ten to nineteen in the United States in comparison to other countries.
+
+The datafile _Human Resources_ found within the _Mental Health and Suicide Rates_ dataset will be used to address our final research question. The _Human Resources_ datafile contains data for various countries during the year 2016, with variables for the amount of human resources working in the mental health sector. This data will allow comparison between the rate of human resources and the rate of suicides throughout many countries.
+
+##### Mental Health and Suicide Rates Data
 
 **Citation:**
 Khanna, T. (2020). Mental Health and Suicide Rates. Kaggle.com. [URL.](https://www.kaggle.com/datasets/twinkle0705/mental-health-and-suicide-rates?select=Crude+suicide+rates.csv)
 
-The _Crude Suicide Rates_ data was collected from Twinkle Khanna. The data was published two years ago and was gathered for the year 2016. While the funder of the dataset is not stated, the publisher displays strong feelings for suicide prevention. Therefore, the dataset may be intended to spread awareness about the rates of suicide in hopes for greater suicide prevention. Since the source of the data is the World Health Organization (WHO), the data is likely to be valid and credible. The WHO holds a high standard for the technical accuracy of data, making the _Crude Suicide Rates_ dataset trustworthy. This dataset was obtained through [Kaggle](https://www.kaggle.com/), a platform for data scientists to publish various datasets. Since much of the data displayed in Kaggle has been provided by Data Scientists and Analysts, the majority of the data is credible.
+The _Crude Suicide Rates_ and _Human Resources_ data was collected from Twinkle Khanna. The data was published two years ago and was gathered for the year 2016. While the funder of the dataset is not stated, the publisher displays strong feelings for suicide prevention. Therefore, the dataset may be intended to spread awareness about the rates of suicide in hopes for greater suicide prevention. Since the source of the data is the World Health Organization (WHO), the data is likely to be valid and credible. The WHO holds a high standard for the technical accuracy of data, making the _Crude Suicide Rates_ dataset trustworthy. This dataset was obtained through [Kaggle](https://www.kaggle.com/), a platform for data scientists to publish various datasets. Since much of the data displayed in Kaggle has been provided by Data Scientists and Analysts, the majority of the data is credible.
 
 
 ‌
