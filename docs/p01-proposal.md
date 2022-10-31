@@ -3,7 +3,7 @@
 * Grayson Ellerd, graysone@uw.edu
 * Keaton Staggs, keatun@uw.edu
 * Yingxuan Wang, yingxw3@uw.edu
-* Netra Krishnan,
+* Netra Krishnan, netrak@uw.edu
 
 ##### Affiliation
  INFO-201: Technical Foundations of Informatics - The Information School - University of Washington
