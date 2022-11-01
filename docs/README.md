@@ -7,7 +7,7 @@ as follows:
 
 |Report | Brief Description|
 |---------------| -----------------|
-|[Project Proposal](./https://github.com/info201b-au2022/project-Graydwarf77/blob/main/docs/p01-proposal.md) | Our proposal examines the issue of adolescent suicide rates around the world, and how we plan to analyze this important issue.
+|[Project Proposal](https://github.com/info201b-au2022/project-Graydwarf77/blob/main/docs/p01-proposal.md) | Our proposal examines the issue of adolescent suicide rates around the world, and how we plan to analyze this important issue.
 |[Exploratory Data Analysis](./xxx) | A brief description of your exploratory data analyis report
 |[Interactive Vizualizaiton](./xxx) | A brief description of your final report.
 
