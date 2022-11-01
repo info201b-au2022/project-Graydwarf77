@@ -80,3 +80,7 @@ Charpignon, M.-L., Ontiveros, J., Sundaresan, S., Puri, A., Chandra, J., Mandl, 
 Khanna, T. (2020). Mental Health and Suicide Rates [Table]. kaggle. https://www.kaggle.com/datasets/twinkle0705/mental-health-and-suicide-rates?select=Crude+suicide+rates.csv
 
 The State of Mental Health in America. (2022). Mental Health America. https://mhanational.org/issues/state-mental-health-america
+
+## Appendix A: Questions
+
+Our group currently has no questions. Thank you. 
