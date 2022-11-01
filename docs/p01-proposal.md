@@ -38,7 +38,7 @@ If one were to take a survey of adolescents around the world asking what their b
 
 2. How do suicide rates for adolescents in the United States compare to other parts of the world? This is important because it educates us (as Americans) to the problem of suicidal ideation in adolescents around the globe. It allows Americans to understand the current mental health crisis on a more global scale, which could help us come up with global solutions, not just tunneling on the United States.
 
-3. How does the rate of human resources for mental health compare to suicide rate for countries around the world? This question is important because it allows us to see how suicide rates may be affected by a stronger or weaker infrastructure when it comes to mental health. This allows us to partially understand what solutions could be implemented to lower rates of adolescent suicide
+3. How does the rate of human resources for mental health compare to suicide rate for countries around the world? This question is important because it allows us to see how suicide rates may be affected by a stronger or weaker infrastructure when it comes to mental health. This allows us to partially understand what solutions could be implemented to lower rates of adolescent suicide.
 
 ## The Dataset
 | Dataset      | Mental Health and Suicide Rates | Second Dataset     | Third Dataset     |
