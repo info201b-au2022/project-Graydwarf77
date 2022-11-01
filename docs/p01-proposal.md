@@ -31,7 +31,7 @@ The biggest concern for adolescents around the world today is suicide due to str
 If one were to take a survey of adolescents around the world asking what their biggest concern was, there is a good chance that a many would say that they are over stressed and feel trapped in a dying world. This outlook, one of hopelessness and desperation, is likely to have contributed to the massive mental health and subsequently suicidal ideation crisis that plagues much of the world today. To paint an idea of the scope of the issue, Jane Brody of the New York Times reports “the rate of suicide among those aged 10 to 24 increased dramatically — by 56 percent — between 2007 and 2017”, a deeply troubling increase (Brody, 2019). Furthermore, the World Health Organization has found that “Depression is one of the leading causes of illness and disability among adolescents, and suicide is the second leading cause of death in people aged 15–19 years” (Adolescents and Young, 2022). There is a severe mental health crisis that is crippling the youth of the world, and it is our responsibility to act, and do what we can to shed light on this issue.
 ### Human Values
  The future health of an entire generation is at stake, and countless communities are at risk of falling apart if this ever-growing crisis is not addressed. Despite this, many still value privacy and status over mental health, aiming to sweep the issue under the rug as previous generations have. This has actively harmed many youths struggling with mental health or a mental illness, as nearly 60% of youth with major depression did not receive any mental health treatment (The State, 2022). Despite the pushback on mental health education and treatment, the time has come to treat the values of mental health and community with the respect they deserve.
-### Direct and Indirect stakeholders
+### Direct and Indirect Stakeholders
  The most obvious direct stakeholders of this issue include adolescents and their families. Their experiences and values towards this topic vary to an extreme extent, leading to a plethora of different approaches to the suicidal ideation crisis. When one considers indirect stakeholders, it would be easier to name who is not one, as anybody who interacts with these direct stakeholders will be affected in some way because of how mental illness affects every facet of a direct stakeholder’s life.
 ### Potential Benefits and Harms
   Data scientists must be extremely careful with technology surrounding the issue of suicidal ideation. Technology can be exceedingly useful in both treatment and research efforts when it comes to the mental health crisis, but they must be cautious not to turn the unique stories of the millions of adolescents that are suffering from suicidal ideation into simple numbers. Ultimately, every person is at a different state when it comes to their mental health, and professionals seeking to utilize technology to fight suicidal ideation must keep this thought in mind if they want to be successful.
@@ -41,7 +41,7 @@ If one were to take a survey of adolescents around the world asking what their b
 
 2. How do suicide rates for adolescents in the United States compare to other parts of the world? This is important because it educates us (as Americans) to the problem of suicidal ideation in adolescents around the globe. It allows Americans to understand the current mental health crisis on a more global scale, which could help us come up with global solutions, not just tunneling on the United States.
 
-3. How does the rate of human resources for mental health compare to suicide rate for countries around the world? This question is important because it allows us to see how suicide rates may be affected by a stronger or weaker infrastructure when it comes to mental health. This allows us to partially understand what solutions could be implemented to lower rates of adolescent suicide
+3. How does the rate of human resources for mental health compare to suicide rate for countries around the world? This question is important because it allows us to see how suicide rates may be affected by a stronger or weaker infrastructure when it comes to mental health. This allows us to partially understand what solutions could be implemented to lower rates of adolescent suicide.
 
 ## The Dataset
 | Dataset      | Mental Health and Suicide Rates | Second Dataset     | Third Dataset     |
@@ -74,6 +74,8 @@ There are some limitations that need to be addressed regarding the research behi
 Adolescent and young adult health [Fact sheet]. (2022, August 10). World Health Organization. https://www.who.int/news-room/fact-sheets/detail/adolescents-health-risks-and-solutions
 
 Brody, J. E. (2019, December 2). The Crisis in Youth Suicide. The New York Times. https://www.nytimes.com/2019/12/02/well/mind/the-crisis-in-youth-suicide.html
+
+Charpignon, M.-L., Ontiveros, J., Sundaresan, S., Puri, A., Chandra, J., Mandl, K. D., & Majumder, M. S. (2022). Evaluation of suicides among US adolescents during the covid-19 pandemic. JAMA Pediatrics, 176(7), 724. https://doi.org/10.1001/jamapediatrics.2022.0515
 
 Khanna, T. (2020). Mental Health and Suicide Rates [Table]. kaggle. https://www.kaggle.com/datasets/twinkle0705/mental-health-and-suicide-rates?select=Crude+suicide+rates.csv
 
