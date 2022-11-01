@@ -1,12 +1,12 @@
-# The `\data` Directory: Project Data Summary 
+# The `\data` Directory: Project Data Summary
 
 In our project, we use the following data files and Application Programming Interfaces:
 
 ## Data files (TODO: Update/delete for your PROJECT)
 |Data File Name | Brief Description|
 |---------------| -----------------|
-|[example.cvs](./example.csv) | This file contains temperature data. (See report for details.)
-|[another-file](./filename2.csv) | Description ... 
+|[Crude_suicide_rates.csv](https://github.com/info201b-au2022/project-Graydwarf77/blob/main/data/Crude_suicide_rates.csv) | This file contains suicide rate data. (See report for details.)
+|[Human_Resources.csv](https://github.com/info201b-au2022/project-Graydwarf77/blob/main/data/Human_Resources.csv) | This file contains human resources data for the mental health sector. (See report for details.)
 
 ## Application Programming Interfaces (API) (TODO: Update/delete for your PROJECT)
 
@@ -19,6 +19,6 @@ Sellers lists and the books that have been reviewed in the New York Times. An ov
 * Edit this `README.md` file and summarize your data files
 * If you are using APIs to access data, summarize them, providing specific information
 * See examples above.
-* Please remember your audience (prospective employers, open source colleagues, TAs, Instructors). Therefore, 
+* Please remember your audience (prospective employers, open source colleagues, TAs, Instructors). Therefore,
 aim for clarity and conciseness.
 * When done, be sure to delete these NOTE sections and the example CSV file (which are intended for you, of course, not your audience!)
