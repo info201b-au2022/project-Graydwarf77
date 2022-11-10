@@ -20,7 +20,7 @@ brazil <- df1 %>%
   filter(str_detect(Country, "Brazil"))
 
 egypt <- df1 %>%
-  filter(str_detect(Country, "Brazil"))
+  filter(str_detect(Country, "Egypt"))
 
 india <- df1 %>%
   filter(str_detect(Country, "India"))
