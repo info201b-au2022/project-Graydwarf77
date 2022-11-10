@@ -14,7 +14,13 @@ adolescent_suicide_rate <- all_suicide_rates %>%
 aggregate_hr_by_country <- human_resources %>% 
   replace_na(list(Psychiatrists = 0, Nurses = 0, Social_workers = 0, Psychologists = 0)) %>% 
   mutate(aggregate_human_resources = Psychiatrists + Nurses + Social_workers + Psychologists) %>% 
-  select(Country, Total_human_resources)
+  select(Country, aggregate_human_resources)
 
 combined_mental_health_df <- left_join(adolescent_suicide_rate, aggregate_hr_by_country, by = "Country")
   
+ggplot(combined_mental_health_df, aes(x = aggregate_human_resources, y = X10to19, label = Country)) + 
+  geom_point() +
+  geom_text(hjust=.5, vjust=1.5) +
+  ggtitle("Adolescent Suicide Rates per 100,000 Vs. Total Mental Health Workers per 100,000") +
+  xlab("Total number of Mental Health Workers per 100,000 People") +
+  ylab("Suicide Rates for Adolescents Aged 10 to 19 per 100,000 People")
