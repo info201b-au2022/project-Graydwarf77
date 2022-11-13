@@ -1,4 +1,4 @@
-install.packages("ggplot2")
+
 library("ggplot2")
 library("dplyr")
 library("stringr")
@@ -48,7 +48,7 @@ japan <- combined_mental_health_df %>%
 countries_being_observed <- rbind(us, rwanda, brazil, egypt, india, malaysia, mexico, romania, japan)
   
   
-ggplot(countries_being_observed, aes(x = aggregate_human_resources, y = X10to19, label = Country)) + 
+chart_three <- ggplot(countries_being_observed, aes(x = aggregate_human_resources, y = X10to19, label = Country)) + 
   geom_point() +
   geom_text(hjust=.5, vjust=1.5) +
   xlim(0, 120) +
@@ -56,3 +56,5 @@ ggplot(countries_being_observed, aes(x = aggregate_human_resources, y = X10to19,
   ggtitle("Adolescent Suicide Rates per 100,000 Vs. Total Mental Health Workers per 100,000") +
   xlab("Number of Mental Health Workers per 100,000 People") +
   ylab("Suicide Rates for Adolescents Aged 10 to 19 per 100,000 People")
+
+
