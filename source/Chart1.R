@@ -17,4 +17,4 @@ View(csv)
 # Plot the 'suicide_rates' data set, with sex on the x-axis and suicide rates per 100,000 
 # 10 to 19-year-olds on the y-axis
 ggplot(data = suicide_rates) +
-  geom_col(mapping = aes(x = Sex, y = X10to19, color = Sex))
+  geom_col(mapping = aes(x = Sex, y = X10to19, fill = Sex))
