@@ -17,5 +17,5 @@ suiciderates_by_sex <- suicide_rates %>%
 # 10 to 19-year-olds on the y-axis
 ggplot(data = suiciderates_by_sex) +
   geom_col(mapping = aes(x = Sex, y = Suicide_rates_adolescents, fill = Sex)) +
-  ylab("Suicide Rates in Adolescents") +
+  ylab("Suicide Rates Per 100,000 Adolescents") +
   ggtitle("Comparing Suicide Rates Among Male and Female Adolescents")
