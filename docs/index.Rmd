@@ -11,23 +11,28 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Summary Paragraph
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
-
+source("~/info201/project/project-Graydwarf77/source/summary_info.R")
 ```
+Our project primarily uses data from the "crude suicide rates" data file. This data set contains `r summary_info$num_country_suicide_rate ` countries, missing about 12 from the total of 195 countries in the world. In this set, the mean suicide rate per 100,000 for adolescents between 10 and 19 is `r summary_info$mean_rate_country`. This means that around the entire world, about 4 adolescents die of suicide per 100,000. The median suicide rate per 100,000 in this data set is `r summary_info$median_rate_country`, which is slightly less than the mean. Overall, the highest suicide rate in this data set is `r summary_info$highest_rate_country`, which is over four times the mean. Our project also used the "Human resources" data file, which has information on mental health resources within many countries around the world. This data set contains `r summary_info$num_countries_human_resources` countries, which is considerably less than the suicide rates data set. 
+
 
 ## Table
 
 ## Chart One
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
-
+source("~/info201/project/project-Graydwarf77/source/Chart1.R")
+Chart_1
 ```
+
 The purpose of this chart is to find the comparison between male and female suicide rates in adolescents around the world. If a major discrepancy is found, it can show how mental health resources could be allocated better towards certain groups moving forward. Based on this chart, it was found that through an average of suicide rates around the world, male adolescents had nearly twice the number of suicide rates than female adolescents. Mental health researchers can use this information to better inform their research towards treatment and better understanding the effects of suicidal ideation.
 
 
 ## Chart Two
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
-source("~/Documents/info201/project-Graydwarf77/source/chart2.R")
+source("~/info201/project/project-Graydwarf77/source/chart2.R")
 chart_2
 ```
+
 Geared toward our second research question, this data visualization displays the suicide rate for adolescents in the United States in comparison to various other countries throughout the world. The pie chart visualization was created to express the differing amount of adolescent suicides (per 100,000) for various nations, with a focus on how the United States compares to other countries. Revealed from the chart, the United States experiences 6.3 suicide deaths per 100,000 people. The highest amount of suicides is in India, with 11.2 suicides per 100,000 people and the lowest amount is 1.9 in Malaysia. From the data, we can observe that the United States has a high suicide rate among adolescents, being the second highest value within the selected countries.
 
 
