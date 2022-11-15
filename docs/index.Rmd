@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Summary Paragraph
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
-source("~/info201/project/project-Graydwarf77/source/summary info")
+
 ```
 
 ## Table
@@ -25,7 +25,8 @@ The purpose of this chart is to find the comparison between male and female suic
 
 ## Chart Two
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
-
+source("~/Documents/info201/project-Graydwarf77/source/chart2.R")
+chart_2
 ```
 Geared toward our second research question, this data visualization displays the suicide rate for adolescents in the United States in comparison to various other countries throughout the world. The pie chart visualization was created to express the differing amount of adolescent suicides (per 100,000) for various nations, with a focus on how the United States compares to other countries. Revealed from the chart, the United States experiences 6.3 suicide deaths per 100,000 people. The highest amount of suicides is in India, with 11.2 suicides per 100,000 people and the lowest amount is 1.9 in Malaysia. From the data, we can observe that the United States has a high suicide rate among adolescents, being the second highest value within the selected countries.
 
