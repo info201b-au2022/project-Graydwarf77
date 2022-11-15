@@ -15,18 +15,16 @@ adolescent_suicide_rate <- all_suicide_rates %>%
   select(Country, Sex, X10to19) %>% 
   filter(str_detect(Sex, "Both sexes"))
 
-summary_adolescent_info <- list()
-summary_adolescent_info$num_country_suicide_rate <- nrow(adolescent_suicide_rate)
-summary_adolescent_info$highest_rate_country <- adolescent_suicide_rate %>%
+summary_info <- list()
+
+summary_info$num_country_suicide_rate <- nrow(adolescent_suicide_rate)
+
+summary_info$highest_rate_country <- adolescent_suicide_rate %>%
   filter(X10to19 == max(X10to19, na.rm = TRUE)) %>%
   pull(X10to19)
 
-summary_adolescent_info$median_rate_country <- adolescent_suicide_rate %>%
-  filter(X10to19 == median(X10to19, na.rm = TRUE)) %>%
-  pull(X10to19)
+summary_info$median_rate_country <- median(adolescent_suicide_rate$X10to19)
 
-summary_adolescent_info$mean_rate_country <- adolescent_suicide_rate %>%
-  sum(X10to19) 
- 
-summary_adolescent_info$num_countries_human_resources <- n_distinct(human_resources$Country)
+summary_info$mean_rate_country <- mean(adolescent_suicide_rate$X10to19)
 
+summary_info$num_countries_human_resources <- n_distinct(human_resources$Country)
