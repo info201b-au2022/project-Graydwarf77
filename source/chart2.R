@@ -1,4 +1,4 @@
-setwd("~/Documents/info201/projectfiles")
+# setwd("~/Documents/info201/projectfiles")
 install.packages("ggplot2")
 library(ggplot2)
 library(tidyverse)
@@ -8,7 +8,7 @@ dataset <- read.csv("Crude_suicide_rates.csv")
 df1 <- dataset %>%
   filter(str_detect(Sex, "Both sexes")) %>%
   select(Country, X10to19) 
-View(df1)
+# View(df1)
 
 us <- df1 %>%
   filter(str_detect(Country, "United States"))
@@ -38,7 +38,7 @@ japan <- df1 %>%
   filter(str_detect(Country, "Japan"))
 
 all_region <- rbind(us, rwanda, brazil, egypt, india, malaysia, mexico, romania, japan)
-View(all_region)
+# View(all_region)
 
 
 ggplot(all_region, aes(x="", y=X10to19, fill=Country)) +
