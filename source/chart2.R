@@ -3,7 +3,7 @@ install.packages("ggplot2")
 library(ggplot2)
 library(tidyverse)
 
-dataset <- read.csv("Crude_suicide_rates.csv")
+dataset <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-Graydwarf77/main/data/Crude_suicide_rates.csv")
 
 df1 <- dataset %>%
   filter(str_detect(Sex, "Both sexes")) %>%
@@ -41,7 +41,7 @@ all_region <- rbind(us, rwanda, brazil, egypt, india, malaysia, mexico, romania,
 # View(all_region)
 
 
-ggplot(all_region, aes(x="", y=X10to19, fill=Country)) +
+chart_2 <- ggplot(all_region, aes(x="", y=X10to19, fill=Country)) +
   geom_bar(stat="identity", width=1, color = "black") +
   ggtitle("Suicide Rate Among Adolescents (per 100,000)") +
   geom_label(aes(label = X10to19), 
@@ -49,7 +49,7 @@ ggplot(all_region, aes(x="", y=X10to19, fill=Country)) +
              position = position_stack(vjust = 0.5)) +
   coord_polar("y", start=0) +
   theme_void() 
-
+# chart_2
 
 
 # Help from https://r-charts.com/part-whole/pie-chart-ggplot2/
