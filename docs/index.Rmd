@@ -1,7 +1,7 @@
 ---
 title: "Analyzing Suicide Rates Among Adolescents"
 author: "Grayson Ellard, Keaton Staggs, Yingxuan Wang, Netra Krishnan"
-date: "1/22/2022"
+date: "11/14/2022"
 output: html_document
 ---
 
@@ -17,6 +17,12 @@ Our project primarily uses data from the "crude suicide rates" data file. This d
 
 
 ## Table
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.show='hide'}
+source("~/info201/project/project-Graydwarf77/source/summary_table.R")
+summary_table
+```
+
+This table displays the overall data found in our research and analysis of suicide rates in adolescents around the world. It includes data of the comparison between suicide rates in adolescents across countries, between male and female adolescents, and in comparison to the rate of mental health resources available across the world. This table is included to provide the ability to compare suicide rates in different contexts, through a holistic view of the different variables affecting suicide rates. Through the data in the table, it was found that each country found a higher suicide rate for male adolescents in comparison to female adolescents, except for a handful of outlier countries such as Bangladesh, Fiji, Guatemala, Indonesia, Lesotho, Maldives, Morocco, Myanmar, Nepal, Paraguay, Sri Lanka, Suriname, Timor-Leste, and Uzbekistan. By comparing this data with other summary data in the table, it can be found that a couple of these outlier countries have a lower human resources rate in comparison to their suicide rates (Nepal, Myanmar, and Bangladesh). However, most of the countries in this section have unavailable information relating to their human resources, so a conclusion can be hard to draw relating human resources to the difference in suicide rates between male and female adolescents. Besides this, the table also allows one to directly look at suicide rates side-by-side with human resources rates in each country, being able to visually look through data around the world and draw connections. By looking at the table, one can find countries like Norway, Panama, and Peru having extremely low suicide rates and extremely high human resources rates, and looking at the specific numbers and statistics to back it. The charts don't allow for this, since they are meant to be more visually pleasing, rather than allowing the viewer to hone in on the statistics.
 
 ## Chart One
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}

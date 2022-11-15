@@ -11,6 +11,7 @@
 
 <meta name="author" content="Grayson Ellard, Keaton Staggs, Yingxuan Wang, Netra Krishnan" />
 
+<meta name="date" content="2022-11-14" />
 
 <title>Analyzing Suicide Rates Among Adolescents</title>
 
@@ -353,7 +354,7 @@ display: none;
 Adolescents</h1>
 <h4 class="author">Grayson Ellard, Keaton Staggs, Yingxuan Wang, Netra
 Krishnan</h4>
-<h4 class="date">1/22/2022</h4>
+<h4 class="date">11/14/2022</h4>
 
 </div>
 
@@ -365,16 +366,1346 @@ file. This data set contains 183 countries, missing about 12 from the
 total of 195 countries in the world. In this set, the mean suicide rate
 per 100,000 for adolescents between 10 and 19 is 4.0928962. This means
 that around the entire world, about 4 adolescents die of suicide per
-100,000. The median suicide rate per 100,000 in this dataset is 3.1,
+100,000. The median suicide rate per 100,000 in this data set is 3.1,
 which is slightly less than the mean. Overall, the highest suicide rate
-in this dataset is 18.3, which is over four times the mean. Our project
+in this data set is 18.3, which is over four times the mean. Our project
 also used the “Human resources” data file, which has information on
 mental health resources within many countries around the world. This
-dataset contains 107, which is considerably less than the suicide rates
-dataset.</p>
+data set contains 107 countries, which is considerably less than the
+suicide rates data set.</p>
 </div>
 <div id="table" class="section level2">
 <h2>Table</h2>
+<table>
+<colgroup>
+<col width="37%" />
+<col width="19%" />
+<col width="11%" />
+<col width="15%" />
+<col width="16%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Country</th>
+<th align="right">Both Sexes Rate Per 100,000</th>
+<th align="right">Human Resources</th>
+<th align="right">Male Rate Per 100,000</th>
+<th align="right">Female Rate Per 100,000</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Afghanistan</td>
+<td align="right">3.1</td>
+<td align="right">0.6</td>
+<td align="right">4.8</td>
+<td align="right">1.2</td>
+</tr>
+<tr class="even">
+<td align="left">Albania</td>
+<td align="right">5.0</td>
+<td align="right">10.6</td>
+<td align="right">3.1</td>
+<td align="right">7.0</td>
+</tr>
+<tr class="odd">
+<td align="left">Algeria</td>
+<td align="right">1.3</td>
+<td align="right">NA</td>
+<td align="right">1.6</td>
+<td align="right">1.0</td>
+</tr>
+<tr class="even">
+<td align="left">Angola</td>
+<td align="right">2.6</td>
+<td align="right">0.9</td>
+<td align="right">3.8</td>
+<td align="right">1.4</td>
+</tr>
+<tr class="odd">
+<td align="left">Antigua and Barbuda</td>
+<td align="right">0.0</td>
+<td align="right">12.0</td>
+<td align="right">0.0</td>
+<td align="right">0.0</td>
+</tr>
+<tr class="even">
+<td align="left">Argentina</td>
+<td align="right">8.6</td>
+<td align="right">244.3</td>
+<td align="right">12.7</td>
+<td align="right">4.3</td>
+</tr>
+<tr class="odd">
+<td align="left">Armenia</td>
+<td align="right">2.2</td>
+<td align="right">16.1</td>
+<td align="right">3.5</td>
+<td align="right">0.6</td>
+</tr>
+<tr class="even">
+<td align="left">Australia</td>
+<td align="right">5.6</td>
+<td align="right">NA</td>
+<td align="right">7.3</td>
+<td align="right">3.9</td>
+</tr>
+<tr class="odd">
+<td align="left">Austria</td>
+<td align="right">4.5</td>
+<td align="right">NA</td>
+<td align="right">5.2</td>
+<td align="right">3.7</td>
+</tr>
+<tr class="even">
+<td align="left">Azerbaijan</td>
+<td align="right">1.4</td>
+<td align="right">11.4</td>
+<td align="right">2.1</td>
+<td align="right">0.6</td>
+</tr>
+<tr class="odd">
+<td align="left">Bahamas</td>
+<td align="right">0.8</td>
+<td align="right">NA</td>
+<td align="right">1.0</td>
+<td align="right">0.6</td>
+</tr>
+<tr class="even">
+<td align="left">Bahrain</td>
+<td align="right">3.0</td>
+<td align="right">NA</td>
+<td align="right">4.3</td>
+<td align="right">1.5</td>
+</tr>
+<tr class="odd">
+<td align="left">Bangladesh</td>
+<td align="right">6.2</td>
+<td align="right">1.1</td>
+<td align="right">2.7</td>
+<td align="right">9.8</td>
+</tr>
+<tr class="even">
+<td align="left">Barbados</td>
+<td align="right">0.0</td>
+<td align="right">NA</td>
+<td align="right">0.0</td>
+<td align="right">0.0</td>
+</tr>
+<tr class="odd">
+<td align="left">Belarus</td>
+<td align="right">4.8</td>
+<td align="right">19.0</td>
+<td align="right">7.6</td>
+<td align="right">1.8</td>
+</tr>
+<tr class="even">
+<td align="left">Belgium</td>
+<td align="right">3.6</td>
+<td align="right">NA</td>
+<td align="right">4.9</td>
+<td align="right">2.1</td>
+</tr>
+<tr class="odd">
+<td align="left">Belize</td>
+<td align="right">2.8</td>
+<td align="right">5.8</td>
+<td align="right">3.5</td>
+<td align="right">2.0</td>
+</tr>
+<tr class="even">
+<td align="left">Benin</td>
+<td align="right">4.5</td>
+<td align="right">NA</td>
+<td align="right">6.6</td>
+<td align="right">2.4</td>
+</tr>
+<tr class="odd">
+<td align="left">Bhutan</td>
+<td align="right">4.9</td>
+<td align="right">0.6</td>
+<td align="right">5.2</td>
+<td align="right">4.6</td>
+</tr>
+<tr class="even">
+<td align="left">Bolivia (Plurinational State of)</td>
+<td align="right">10.4</td>
+<td align="right">1.1</td>
+<td align="right">10.8</td>
+<td align="right">10.0</td>
+</tr>
+<tr class="odd">
+<td align="left">Bosnia and Herzegovina</td>
+<td align="right">1.7</td>
+<td align="right">NA</td>
+<td align="right">2.5</td>
+<td align="right">0.8</td>
+</tr>
+<tr class="even">
+<td align="left">Botswana</td>
+<td align="right">3.5</td>
+<td align="right">NA</td>
+<td align="right">5.3</td>
+<td align="right">1.6</td>
+</tr>
+<tr class="odd">
+<td align="left">Brazil</td>
+<td align="right">2.7</td>
+<td align="right">57.1</td>
+<td align="right">3.8</td>
+<td align="right">1.6</td>
+</tr>
+<tr class="even">
+<td align="left">Brunei Darussalam</td>
+<td align="right">0.6</td>
+<td align="right">21.6</td>
+<td align="right">0.7</td>
+<td align="right">0.4</td>
+</tr>
+<tr class="odd">
+<td align="left">Bulgaria</td>
+<td align="right">2.9</td>
+<td align="right">27.6</td>
+<td align="right">4.2</td>
+<td align="right">1.6</td>
+</tr>
+<tr class="even">
+<td align="left">Burkina Faso</td>
+<td align="right">3.1</td>
+<td align="right">0.7</td>
+<td align="right">4.0</td>
+<td align="right">2.1</td>
+</tr>
+<tr class="odd">
+<td align="left">Burundi</td>
+<td align="right">5.7</td>
+<td align="right">NA</td>
+<td align="right">7.8</td>
+<td align="right">3.6</td>
+</tr>
+<tr class="even">
+<td align="left">Cabo Verde</td>
+<td align="right">2.2</td>
+<td align="right">NA</td>
+<td align="right">3.4</td>
+<td align="right">0.9</td>
+</tr>
+<tr class="odd">
+<td align="left">Cambodia</td>
+<td align="right">2.4</td>
+<td align="right">7.8</td>
+<td align="right">3.1</td>
+<td align="right">1.6</td>
+</tr>
+<tr class="even">
+<td align="left">Cameroon</td>
+<td align="right">6.3</td>
+<td align="right">NA</td>
+<td align="right">9.2</td>
+<td align="right">3.4</td>
+</tr>
+<tr class="odd">
+<td align="left">Canada</td>
+<td align="right">5.1</td>
+<td align="right">NA</td>
+<td align="right">5.9</td>
+<td align="right">4.2</td>
+</tr>
+<tr class="even">
+<td align="left">Central African Republic</td>
+<td align="right">3.8</td>
+<td align="right">NA</td>
+<td align="right">5.3</td>
+<td align="right">2.3</td>
+</tr>
+<tr class="odd">
+<td align="left">Chad</td>
+<td align="right">4.9</td>
+<td align="right">0.0</td>
+<td align="right">5.6</td>
+<td align="right">4.2</td>
+</tr>
+<tr class="even">
+<td align="left">Chile</td>
+<td align="right">4.9</td>
+<td align="right">8.8</td>
+<td align="right">6.6</td>
+<td align="right">3.1</td>
+</tr>
+<tr class="odd">
+<td align="left">China</td>
+<td align="right">1.9</td>
+<td align="right">NA</td>
+<td align="right">1.5</td>
+<td align="right">2.3</td>
+</tr>
+<tr class="even">
+<td align="left">Colombia</td>
+<td align="right">7.3</td>
+<td align="right">1.8</td>
+<td align="right">9.6</td>
+<td align="right">5.0</td>
+</tr>
+<tr class="odd">
+<td align="left">Comoros</td>
+<td align="right">2.4</td>
+<td align="right">NA</td>
+<td align="right">3.1</td>
+<td align="right">1.7</td>
+</tr>
+<tr class="even">
+<td align="left">Congo</td>
+<td align="right">2.6</td>
+<td align="right">0.6</td>
+<td align="right">3.7</td>
+<td align="right">1.5</td>
+</tr>
+<tr class="odd">
+<td align="left">Costa Rica</td>
+<td align="right">4.4</td>
+<td align="right">228.6</td>
+<td align="right">6.5</td>
+<td align="right">2.3</td>
+</tr>
+<tr class="even">
+<td align="left">Côte d’Ivoire</td>
+<td align="right">8.1</td>
+<td align="right">0.5</td>
+<td align="right">10.9</td>
+<td align="right">5.2</td>
+</tr>
+<tr class="odd">
+<td align="left">Croatia</td>
+<td align="right">3.4</td>
+<td align="right">58.6</td>
+<td align="right">5.8</td>
+<td align="right">0.9</td>
+</tr>
+<tr class="even">
+<td align="left">Cuba</td>
+<td align="right">2.4</td>
+<td align="right">50.4</td>
+<td align="right">3.6</td>
+<td align="right">1.2</td>
+</tr>
+<tr class="odd">
+<td align="left">Cyprus</td>
+<td align="right">1.6</td>
+<td align="right">NA</td>
+<td align="right">3.1</td>
+<td align="right">0.0</td>
+</tr>
+<tr class="even">
+<td align="left">Czechia</td>
+<td align="right">4.0</td>
+<td align="right">NA</td>
+<td align="right">5.6</td>
+<td align="right">2.4</td>
+</tr>
+<tr class="odd">
+<td align="left">Democratic People’s Republic of Korea</td>
+<td align="right">4.4</td>
+<td align="right">NA</td>
+<td align="right">3.6</td>
+<td align="right">5.3</td>
+</tr>
+<tr class="even">
+<td align="left">Democratic Republic of the Congo</td>
+<td align="right">3.3</td>
+<td align="right">NA</td>
+<td align="right">4.7</td>
+<td align="right">1.9</td>
+</tr>
+<tr class="odd">
+<td align="left">Denmark</td>
+<td align="right">2.2</td>
+<td align="right">NA</td>
+<td align="right">3.1</td>
+<td align="right">1.3</td>
+</tr>
+<tr class="even">
+<td align="left">Djibouti</td>
+<td align="right">3.4</td>
+<td align="right">NA</td>
+<td align="right">4.4</td>
+<td align="right">2.4</td>
+</tr>
+<tr class="odd">
+<td align="left">Dominican Republic</td>
+<td align="right">3.8</td>
+<td align="right">10.2</td>
+<td align="right">5.3</td>
+<td align="right">2.2</td>
+</tr>
+<tr class="even">
+<td align="left">Ecuador</td>
+<td align="right">8.8</td>
+<td align="right">8.2</td>
+<td align="right">10.0</td>
+<td align="right">7.6</td>
+</tr>
+<tr class="odd">
+<td align="left">Egypt</td>
+<td align="right">2.3</td>
+<td align="right">7.1</td>
+<td align="right">3.4</td>
+<td align="right">1.2</td>
+</tr>
+<tr class="even">
+<td align="left">El Salvador</td>
+<td align="right">10.9</td>
+<td align="right">3.3</td>
+<td align="right">14.2</td>
+<td align="right">7.6</td>
+</tr>
+<tr class="odd">
+<td align="left">Equatorial Guinea</td>
+<td align="right">7.1</td>
+<td align="right">NA</td>
+<td align="right">10.3</td>
+<td align="right">3.8</td>
+</tr>
+<tr class="even">
+<td align="left">Eritrea</td>
+<td align="right">2.2</td>
+<td align="right">2.3</td>
+<td align="right">3.4</td>
+<td align="right">0.9</td>
+</tr>
+<tr class="odd">
+<td align="left">Estonia</td>
+<td align="right">8.4</td>
+<td align="right">46.7</td>
+<td align="right">14.8</td>
+<td align="right">1.6</td>
+</tr>
+<tr class="even">
+<td align="left">Eswatini</td>
+<td align="right">7.7</td>
+<td align="right">NA</td>
+<td align="right">10.6</td>
+<td align="right">4.8</td>
+</tr>
+<tr class="odd">
+<td align="left">Ethiopia</td>
+<td align="right">3.6</td>
+<td align="right">NA</td>
+<td align="right">5.3</td>
+<td align="right">1.9</td>
+</tr>
+<tr class="even">
+<td align="left">Fiji</td>
+<td align="right">1.2</td>
+<td align="right">2.8</td>
+<td align="right">0.9</td>
+<td align="right">1.5</td>
+</tr>
+<tr class="odd">
+<td align="left">Finland</td>
+<td align="right">4.9</td>
+<td align="right">NA</td>
+<td align="right">6.8</td>
+<td align="right">2.8</td>
+</tr>
+<tr class="even">
+<td align="left">France</td>
+<td align="right">2.2</td>
+<td align="right">NA</td>
+<td align="right">2.9</td>
+<td align="right">1.5</td>
+</tr>
+<tr class="odd">
+<td align="left">Gabon</td>
+<td align="right">4.4</td>
+<td align="right">1.7</td>
+<td align="right">7.0</td>
+<td align="right">1.8</td>
+</tr>
+<tr class="even">
+<td align="left">Gambia</td>
+<td align="right">2.5</td>
+<td align="right">0.5</td>
+<td align="right">2.7</td>
+<td align="right">2.3</td>
+</tr>
+<tr class="odd">
+<td align="left">Georgia</td>
+<td align="right">2.8</td>
+<td align="right">15.0</td>
+<td align="right">4.4</td>
+<td align="right">1.0</td>
+</tr>
+<tr class="even">
+<td align="left">Germany</td>
+<td align="right">2.6</td>
+<td align="right">NA</td>
+<td align="right">3.3</td>
+<td align="right">1.8</td>
+</tr>
+<tr class="odd">
+<td align="left">Ghana</td>
+<td align="right">1.9</td>
+<td align="right">7.9</td>
+<td align="right">2.3</td>
+<td align="right">1.4</td>
+</tr>
+<tr class="even">
+<td align="left">Greece</td>
+<td align="right">0.7</td>
+<td align="right">30.8</td>
+<td align="right">1.1</td>
+<td align="right">0.3</td>
+</tr>
+<tr class="odd">
+<td align="left">Grenada</td>
+<td align="right">0.0</td>
+<td align="right">5.6</td>
+<td align="right">0.0</td>
+<td align="right">0.0</td>
+</tr>
+<tr class="even">
+<td align="left">Guatemala</td>
+<td align="right">3.1</td>
+<td align="right">47.7</td>
+<td align="right">2.6</td>
+<td align="right">3.6</td>
+</tr>
+<tr class="odd">
+<td align="left">Guinea</td>
+<td align="right">2.7</td>
+<td align="right">0.0</td>
+<td align="right">3.0</td>
+<td align="right">2.4</td>
+</tr>
+<tr class="even">
+<td align="left">Guinea-Bissau</td>
+<td align="right">1.5</td>
+<td align="right">1.1</td>
+<td align="right">1.9</td>
+<td align="right">1.1</td>
+</tr>
+<tr class="odd">
+<td align="left">Guyana</td>
+<td align="right">18.3</td>
+<td align="right">0.9</td>
+<td align="right">18.2</td>
+<td align="right">18.4</td>
+</tr>
+<tr class="even">
+<td align="left">Haiti</td>
+<td align="right">9.7</td>
+<td align="right">1.2</td>
+<td align="right">10.4</td>
+<td align="right">9.1</td>
+</tr>
+<tr class="odd">
+<td align="left">Honduras</td>
+<td align="right">1.3</td>
+<td align="right">NA</td>
+<td align="right">1.5</td>
+<td align="right">1.1</td>
+</tr>
+<tr class="even">
+<td align="left">Hungary</td>
+<td align="right">2.7</td>
+<td align="right">47.3</td>
+<td align="right">4.1</td>
+<td align="right">1.3</td>
+</tr>
+<tr class="odd">
+<td align="left">Iceland</td>
+<td align="right">10.8</td>
+<td align="right">NA</td>
+<td align="right">21.2</td>
+<td align="right">0.0</td>
+</tr>
+<tr class="even">
+<td align="left">India</td>
+<td align="right">11.2</td>
+<td align="right">1.2</td>
+<td align="right">7.8</td>
+<td align="right">15.0</td>
+</tr>
+<tr class="odd">
+<td align="left">Indonesia</td>
+<td align="right">2.0</td>
+<td align="right">3.0</td>
+<td align="right">2.7</td>
+<td align="right">1.3</td>
+</tr>
+<tr class="even">
+<td align="left">Iran (Islamic Republic of)</td>
+<td align="right">2.8</td>
+<td align="right">NA</td>
+<td align="right">2.3</td>
+<td align="right">3.3</td>
+</tr>
+<tr class="odd">
+<td align="left">Iraq</td>
+<td align="right">1.2</td>
+<td align="right">NA</td>
+<td align="right">1.3</td>
+<td align="right">1.0</td>
+</tr>
+<tr class="even">
+<td align="left">Ireland</td>
+<td align="right">4.1</td>
+<td align="right">NA</td>
+<td align="right">5.9</td>
+<td align="right">2.2</td>
+</tr>
+<tr class="odd">
+<td align="left">Israel</td>
+<td align="right">1.4</td>
+<td align="right">98.0</td>
+<td align="right">2.1</td>
+<td align="right">0.7</td>
+</tr>
+<tr class="even">
+<td align="left">Italy</td>
+<td align="right">1.4</td>
+<td align="right">NA</td>
+<td align="right">1.8</td>
+<td align="right">0.9</td>
+</tr>
+<tr class="odd">
+<td align="left">Jamaica</td>
+<td align="right">1.2</td>
+<td align="right">NA</td>
+<td align="right">1.4</td>
+<td align="right">0.9</td>
+</tr>
+<tr class="even">
+<td align="left">Japan</td>
+<td align="right">4.8</td>
+<td align="right">107.0</td>
+<td align="right">6.6</td>
+<td align="right">3.0</td>
+</tr>
+<tr class="odd">
+<td align="left">Jordan</td>
+<td align="right">1.1</td>
+<td align="right">5.9</td>
+<td align="right">1.2</td>
+<td align="right">1.0</td>
+</tr>
+<tr class="even">
+<td align="left">Kazakhstan</td>
+<td align="right">9.9</td>
+<td align="right">NA</td>
+<td align="right">13.3</td>
+<td align="right">6.2</td>
+</tr>
+<tr class="odd">
+<td align="left">Kenya</td>
+<td align="right">1.4</td>
+<td align="right">0.2</td>
+<td align="right">2.4</td>
+<td align="right">0.5</td>
+</tr>
+<tr class="even">
+<td align="left">Kiribati</td>
+<td align="right">16.0</td>
+<td align="right">NA</td>
+<td align="right">24.2</td>
+<td align="right">7.3</td>
+</tr>
+<tr class="odd">
+<td align="left">Kuwait</td>
+<td align="right">0.8</td>
+<td align="right">NA</td>
+<td align="right">1.3</td>
+<td align="right">0.3</td>
+</tr>
+<tr class="even">
+<td align="left">Kyrgyzstan</td>
+<td align="right">7.3</td>
+<td align="right">9.5</td>
+<td align="right">8.7</td>
+<td align="right">5.9</td>
+</tr>
+<tr class="odd">
+<td align="left">Lao People’s Democratic Republic</td>
+<td align="right">6.3</td>
+<td align="right">NA</td>
+<td align="right">7.8</td>
+<td align="right">4.8</td>
+</tr>
+<tr class="even">
+<td align="left">Latvia</td>
+<td align="right">5.4</td>
+<td align="right">NA</td>
+<td align="right">9.3</td>
+<td align="right">1.3</td>
+</tr>
+<tr class="odd">
+<td align="left">Lebanon</td>
+<td align="right">1.0</td>
+<td align="right">NA</td>
+<td align="right">1.0</td>
+<td align="right">0.9</td>
+</tr>
+<tr class="even">
+<td align="left">Lesotho</td>
+<td align="right">9.7</td>
+<td align="right">NA</td>
+<td align="right">8.8</td>
+<td align="right">10.6</td>
+</tr>
+<tr class="odd">
+<td align="left">Liberia</td>
+<td align="right">2.1</td>
+<td align="right">7.8</td>
+<td align="right">2.6</td>
+<td align="right">1.5</td>
+</tr>
+<tr class="even">
+<td align="left">Libya</td>
+<td align="right">1.8</td>
+<td align="right">NA</td>
+<td align="right">2.6</td>
+<td align="right">1.0</td>
+</tr>
+<tr class="odd">
+<td align="left">Lithuania</td>
+<td align="right">8.1</td>
+<td align="right">84.1</td>
+<td align="right">13.4</td>
+<td align="right">2.5</td>
+</tr>
+<tr class="even">
+<td align="left">Luxembourg</td>
+<td align="right">4.8</td>
+<td align="right">NA</td>
+<td align="right">6.7</td>
+<td align="right">2.9</td>
+</tr>
+<tr class="odd">
+<td align="left">Madagascar</td>
+<td align="right">1.9</td>
+<td align="right">0.5</td>
+<td align="right">2.7</td>
+<td align="right">1.1</td>
+</tr>
+<tr class="even">
+<td align="left">Malawi</td>
+<td align="right">1.3</td>
+<td align="right">NA</td>
+<td align="right">2.0</td>
+<td align="right">0.6</td>
+</tr>
+<tr class="odd">
+<td align="left">Malaysia</td>
+<td align="right">1.9</td>
+<td align="right">8.9</td>
+<td align="right">2.9</td>
+<td align="right">0.9</td>
+</tr>
+<tr class="even">
+<td align="left">Maldives</td>
+<td align="right">1.2</td>
+<td align="right">NA</td>
+<td align="right">1.0</td>
+<td align="right">1.4</td>
+</tr>
+<tr class="odd">
+<td align="left">Mali</td>
+<td align="right">2.8</td>
+<td align="right">0.1</td>
+<td align="right">3.6</td>
+<td align="right">1.9</td>
+</tr>
+<tr class="even">
+<td align="left">Malta</td>
+<td align="right">4.8</td>
+<td align="right">NA</td>
+<td align="right">4.2</td>
+<td align="right">5.3</td>
+</tr>
+<tr class="odd">
+<td align="left">Mauritania</td>
+<td align="right">1.4</td>
+<td align="right">NA</td>
+<td align="right">1.8</td>
+<td align="right">1.0</td>
+</tr>
+<tr class="even">
+<td align="left">Mauritius</td>
+<td align="right">3.7</td>
+<td align="right">NA</td>
+<td align="right">7.4</td>
+<td align="right">0.0</td>
+</tr>
+<tr class="odd">
+<td align="left">Mexico</td>
+<td align="right">4.2</td>
+<td align="right">6.4</td>
+<td align="right">5.3</td>
+<td align="right">3.1</td>
+</tr>
+<tr class="even">
+<td align="left">Micronesia (Federated States of)</td>
+<td align="right">10.8</td>
+<td align="right">NA</td>
+<td align="right">13.6</td>
+<td align="right">7.8</td>
+</tr>
+<tr class="odd">
+<td align="left">Mongolia</td>
+<td align="right">6.9</td>
+<td align="right">8.4</td>
+<td align="right">10.7</td>
+<td align="right">3.1</td>
+</tr>
+<tr class="even">
+<td align="left">Montenegro</td>
+<td align="right">2.4</td>
+<td align="right">27.7</td>
+<td align="right">4.0</td>
+<td align="right">0.6</td>
+</tr>
+<tr class="odd">
+<td align="left">Morocco</td>
+<td align="right">1.1</td>
+<td align="right">4.5</td>
+<td align="right">0.8</td>
+<td align="right">1.5</td>
+</tr>
+<tr class="even">
+<td align="left">Mozambique</td>
+<td align="right">2.9</td>
+<td align="right">0.5</td>
+<td align="right">4.2</td>
+<td align="right">1.5</td>
+</tr>
+<tr class="odd">
+<td align="left">Myanmar</td>
+<td align="right">4.7</td>
+<td align="right">0.7</td>
+<td align="right">3.3</td>
+<td align="right">6.2</td>
+</tr>
+<tr class="even">
+<td align="left">Namibia</td>
+<td align="right">4.6</td>
+<td align="right">2.9</td>
+<td align="right">7.2</td>
+<td align="right">2.0</td>
+</tr>
+<tr class="odd">
+<td align="left">Nepal</td>
+<td align="right">6.0</td>
+<td align="right">1.4</td>
+<td align="right">5.0</td>
+<td align="right">7.0</td>
+</tr>
+<tr class="even">
+<td align="left">Netherlands</td>
+<td align="right">2.4</td>
+<td align="right">NA</td>
+<td align="right">2.9</td>
+<td align="right">1.8</td>
+</tr>
+<tr class="odd">
+<td align="left">New Zealand</td>
+<td align="right">11.2</td>
+<td align="right">103.7</td>
+<td align="right">14.2</td>
+<td align="right">8.1</td>
+</tr>
+<tr class="even">
+<td align="left">Nicaragua</td>
+<td align="right">11.6</td>
+<td align="right">NA</td>
+<td align="right">13.2</td>
+<td align="right">10.0</td>
+</tr>
+<tr class="odd">
+<td align="left">Niger</td>
+<td align="right">3.1</td>
+<td align="right">0.2</td>
+<td align="right">4.0</td>
+<td align="right">2.1</td>
+</tr>
+<tr class="even">
+<td align="left">Nigeria</td>
+<td align="right">4.0</td>
+<td align="right">NA</td>
+<td align="right">4.3</td>
+<td align="right">3.7</td>
+</tr>
+<tr class="odd">
+<td align="left">Norway</td>
+<td align="right">3.0</td>
+<td align="right">121.6</td>
+<td align="right">3.9</td>
+<td align="right">2.2</td>
+</tr>
+<tr class="even">
+<td align="left">Oman</td>
+<td align="right">1.4</td>
+<td align="right">NA</td>
+<td align="right">2.4</td>
+<td align="right">0.4</td>
+</tr>
+<tr class="odd">
+<td align="left">Pakistan</td>
+<td align="right">3.1</td>
+<td align="right">NA</td>
+<td align="right">2.1</td>
+<td align="right">4.3</td>
+</tr>
+<tr class="even">
+<td align="left">Panama</td>
+<td align="right">3.5</td>
+<td align="right">24.0</td>
+<td align="right">5.5</td>
+<td align="right">1.4</td>
+</tr>
+<tr class="odd">
+<td align="left">Papua New Guinea</td>
+<td align="right">5.2</td>
+<td align="right">NA</td>
+<td align="right">6.5</td>
+<td align="right">3.8</td>
+</tr>
+<tr class="even">
+<td align="left">Paraguay</td>
+<td align="right">9.6</td>
+<td align="right">NA</td>
+<td align="right">9.5</td>
+<td align="right">9.7</td>
+</tr>
+<tr class="odd">
+<td align="left">Peru</td>
+<td align="right">2.8</td>
+<td align="right">18.4</td>
+<td align="right">2.9</td>
+<td align="right">2.6</td>
+</tr>
+<tr class="even">
+<td align="left">Philippines</td>
+<td align="right">2.5</td>
+<td align="right">1.4</td>
+<td align="right">2.9</td>
+<td align="right">2.1</td>
+</tr>
+<tr class="odd">
+<td align="left">Poland</td>
+<td align="right">5.4</td>
+<td align="right">71.4</td>
+<td align="right">8.4</td>
+<td align="right">2.2</td>
+</tr>
+<tr class="even">
+<td align="left">Portugal</td>
+<td align="right">1.3</td>
+<td align="right">NA</td>
+<td align="right">1.9</td>
+<td align="right">0.7</td>
+</tr>
+<tr class="odd">
+<td align="left">Qatar</td>
+<td align="right">2.9</td>
+<td align="right">14.2</td>
+<td align="right">4.7</td>
+<td align="right">0.3</td>
+</tr>
+<tr class="even">
+<td align="left">Republic of Korea</td>
+<td align="right">4.4</td>
+<td align="right">29.5</td>
+<td align="right">4.9</td>
+<td align="right">3.9</td>
+</tr>
+<tr class="odd">
+<td align="left">Republic of Moldova</td>
+<td align="right">7.1</td>
+<td align="right">NA</td>
+<td align="right">11.1</td>
+<td align="right">2.9</td>
+</tr>
+<tr class="even">
+<td align="left">Republic of North Macedonia</td>
+<td align="right">1.9</td>
+<td align="right">NA</td>
+<td align="right">2.6</td>
+<td align="right">1.2</td>
+</tr>
+<tr class="odd">
+<td align="left">Romania</td>
+<td align="right">2.9</td>
+<td align="right">26.4</td>
+<td align="right">4.1</td>
+<td align="right">1.6</td>
+</tr>
+<tr class="even">
+<td align="left">Russian Federation</td>
+<td align="right">8.2</td>
+<td align="right">NA</td>
+<td align="right">11.9</td>
+<td align="right">4.3</td>
+</tr>
+<tr class="odd">
+<td align="left">Rwanda</td>
+<td align="right">3.0</td>
+<td align="right">2.0</td>
+<td align="right">4.1</td>
+<td align="right">1.9</td>
+</tr>
+<tr class="even">
+<td align="left">Saint Lucia</td>
+<td align="right">4.4</td>
+<td align="right">51.9</td>
+<td align="right">6.3</td>
+<td align="right">2.5</td>
+</tr>
+<tr class="odd">
+<td align="left">Saint Vincent and the Grenadines</td>
+<td align="right">3.0</td>
+<td align="right">NA</td>
+<td align="right">3.1</td>
+<td align="right">3.0</td>
+</tr>
+<tr class="even">
+<td align="left">Samoa</td>
+<td align="right">2.6</td>
+<td align="right">4.6</td>
+<td align="right">3.6</td>
+<td align="right">1.6</td>
+</tr>
+<tr class="odd">
+<td align="left">Sao Tome and Principe</td>
+<td align="right">1.4</td>
+<td align="right">8.7</td>
+<td align="right">1.7</td>
+<td align="right">1.1</td>
+</tr>
+<tr class="even">
+<td align="left">Saudi Arabia</td>
+<td align="right">1.6</td>
+<td align="right">18.0</td>
+<td align="right">2.4</td>
+<td align="right">0.8</td>
+</tr>
+<tr class="odd">
+<td align="left">Senegal</td>
+<td align="right">2.3</td>
+<td align="right">0.6</td>
+<td align="right">3.4</td>
+<td align="right">1.2</td>
+</tr>
+<tr class="even">
+<td align="left">Serbia</td>
+<td align="right">1.3</td>
+<td align="right">NA</td>
+<td align="right">2.2</td>
+<td align="right">0.3</td>
+</tr>
+<tr class="odd">
+<td align="left">Seychelles</td>
+<td align="right">1.5</td>
+<td align="right">13.9</td>
+<td align="right">2.1</td>
+<td align="right">0.9</td>
+</tr>
+<tr class="even">
+<td align="left">Sierra Leone</td>
+<td align="right">4.1</td>
+<td align="right">NA</td>
+<td align="right">5.2</td>
+<td align="right">3.0</td>
+</tr>
+<tr class="odd">
+<td align="left">Singapore</td>
+<td align="right">3.7</td>
+<td align="right">4.2</td>
+<td align="right">4.0</td>
+<td align="right">3.3</td>
+</tr>
+<tr class="even">
+<td align="left">Slovakia</td>
+<td align="right">2.5</td>
+<td align="right">NA</td>
+<td align="right">4.1</td>
+<td align="right">0.9</td>
+</tr>
+<tr class="odd">
+<td align="left">Slovenia</td>
+<td align="right">3.0</td>
+<td align="right">60.0</td>
+<td align="right">4.9</td>
+<td align="right">0.9</td>
+</tr>
+<tr class="even">
+<td align="left">Solomon Islands</td>
+<td align="right">4.7</td>
+<td align="right">NA</td>
+<td align="right">6.0</td>
+<td align="right">3.2</td>
+</tr>
+<tr class="odd">
+<td align="left">Somalia</td>
+<td align="right">2.4</td>
+<td align="right">NA</td>
+<td align="right">3.0</td>
+<td align="right">1.8</td>
+</tr>
+<tr class="even">
+<td align="left">South Africa</td>
+<td align="right">4.2</td>
+<td align="right">1.5</td>
+<td align="right">6.1</td>
+<td align="right">2.3</td>
+</tr>
+<tr class="odd">
+<td align="left">South Sudan</td>
+<td align="right">1.6</td>
+<td align="right">0.3</td>
+<td align="right">1.8</td>
+<td align="right">1.3</td>
+</tr>
+<tr class="even">
+<td align="left">Spain</td>
+<td align="right">1.5</td>
+<td align="right">NA</td>
+<td align="right">2.0</td>
+<td align="right">1.0</td>
+</tr>
+<tr class="odd">
+<td align="left">Sri Lanka</td>
+<td align="right">6.2</td>
+<td align="right">NA</td>
+<td align="right">6.2</td>
+<td align="right">6.2</td>
+</tr>
+<tr class="even">
+<td align="left">Sudan</td>
+<td align="right">5.3</td>
+<td align="right">NA</td>
+<td align="right">6.8</td>
+<td align="right">3.7</td>
+</tr>
+<tr class="odd">
+<td align="left">Suriname</td>
+<td align="right">11.3</td>
+<td align="right">18.8</td>
+<td align="right">10.2</td>
+<td align="right">12.4</td>
+</tr>
+<tr class="even">
+<td align="left">Sweden</td>
+<td align="right">3.5</td>
+<td align="right">71.4</td>
+<td align="right">4.5</td>
+<td align="right">2.4</td>
+</tr>
+<tr class="odd">
+<td align="left">Switzerland</td>
+<td align="right">4.1</td>
+<td align="right">NA</td>
+<td align="right">5.8</td>
+<td align="right">2.4</td>
+</tr>
+<tr class="even">
+<td align="left">Syrian Arab Republic</td>
+<td align="right">0.7</td>
+<td align="right">3.3</td>
+<td align="right">0.9</td>
+<td align="right">0.5</td>
+</tr>
+<tr class="odd">
+<td align="left">Tajikistan</td>
+<td align="right">1.0</td>
+<td align="right">2.9</td>
+<td align="right">1.3</td>
+<td align="right">0.8</td>
+</tr>
+<tr class="even">
+<td align="left">Thailand</td>
+<td align="right">5.6</td>
+<td align="right">10.7</td>
+<td align="right">9.2</td>
+<td align="right">1.8</td>
+</tr>
+<tr class="odd">
+<td align="left">Timor-Leste</td>
+<td align="right">3.0</td>
+<td align="right">3.1</td>
+<td align="right">2.8</td>
+<td align="right">3.3</td>
+</tr>
+<tr class="even">
+<td align="left">Togo</td>
+<td align="right">4.0</td>
+<td align="right">0.8</td>
+<td align="right">5.3</td>
+<td align="right">2.8</td>
+</tr>
+<tr class="odd">
+<td align="left">Tonga</td>
+<td align="right">2.5</td>
+<td align="right">21.6</td>
+<td align="right">2.6</td>
+<td align="right">2.3</td>
+</tr>
+<tr class="even">
+<td align="left">Trinidad and Tobago</td>
+<td align="right">7.3</td>
+<td align="right">NA</td>
+<td align="right">10.6</td>
+<td align="right">3.8</td>
+</tr>
+<tr class="odd">
+<td align="left">Tunisia</td>
+<td align="right">0.9</td>
+<td align="right">NA</td>
+<td align="right">1.0</td>
+<td align="right">0.9</td>
+</tr>
+<tr class="even">
+<td align="left">Turkey</td>
+<td align="right">5.4</td>
+<td align="right">156.1</td>
+<td align="right">6.5</td>
+<td align="right">4.2</td>
+</tr>
+<tr class="odd">
+<td align="left">Turkmenistan</td>
+<td align="right">5.9</td>
+<td align="right">NA</td>
+<td align="right">6.2</td>
+<td align="right">5.6</td>
+</tr>
+<tr class="even">
+<td align="left">Uganda</td>
+<td align="right">5.3</td>
+<td align="right">2.4</td>
+<td align="right">6.1</td>
+<td align="right">4.6</td>
+</tr>
+<tr class="odd">
+<td align="left">Ukraine</td>
+<td align="right">6.7</td>
+<td align="right">6.9</td>
+<td align="right">10.6</td>
+<td align="right">2.5</td>
+</tr>
+<tr class="even">
+<td align="left">United Arab Emirates</td>
+<td align="right">1.8</td>
+<td align="right">7.1</td>
+<td align="right">3.2</td>
+<td align="right">0.3</td>
+</tr>
+<tr class="odd">
+<td align="left">United Kingdom of Great Britain and Northern
+Ireland</td>
+<td align="right">2.2</td>
+<td align="right">NA</td>
+<td align="right">3.2</td>
+<td align="right">1.2</td>
+</tr>
+<tr class="even">
+<td align="left">United Republic of Tanzania</td>
+<td align="right">2.5</td>
+<td align="right">NA</td>
+<td align="right">3.3</td>
+<td align="right">1.6</td>
+</tr>
+<tr class="odd">
+<td align="left">United States of America</td>
+<td align="right">6.3</td>
+<td align="right">105.0</td>
+<td align="right">9.0</td>
+<td align="right">3.4</td>
+</tr>
+<tr class="even">
+<td align="left">Uruguay</td>
+<td align="right">8.1</td>
+<td align="right">14.1</td>
+<td align="right">12.1</td>
+<td align="right">3.9</td>
+</tr>
+<tr class="odd">
+<td align="left">Uzbekistan</td>
+<td align="right">9.0</td>
+<td align="right">11.9</td>
+<td align="right">8.5</td>
+<td align="right">9.6</td>
+</tr>
+<tr class="even">
+<td align="left">Vanuatu</td>
+<td align="right">4.4</td>
+<td align="right">6.0</td>
+<td align="right">6.0</td>
+<td align="right">2.6</td>
+</tr>
+<tr class="odd">
+<td align="left">Venezuela (Bolivarian Republic of)</td>
+<td align="right">3.0</td>
+<td align="right">NA</td>
+<td align="right">4.3</td>
+<td align="right">1.7</td>
+</tr>
+<tr class="even">
+<td align="left">Viet Nam</td>
+<td align="right">1.8</td>
+<td align="right">NA</td>
+<td align="right">2.5</td>
+<td align="right">1.0</td>
+</tr>
+<tr class="odd">
+<td align="left">Yemen</td>
+<td align="right">4.5</td>
+<td align="right">1.0</td>
+<td align="right">5.2</td>
+<td align="right">3.9</td>
+</tr>
+<tr class="even">
+<td align="left">Zambia</td>
+<td align="right">2.8</td>
+<td align="right">1.5</td>
+<td align="right">3.9</td>
+<td align="right">1.6</td>
+</tr>
+<tr class="odd">
+<td align="left">Zimbabwe</td>
+<td align="right">4.6</td>
+<td align="right">4.3</td>
+<td align="right">6.4</td>
+<td align="right">2.7</td>
+</tr>
+</tbody>
+</table>
+<p>This table displays the overall data found in our research and
+analysis of suicide rates in adolescents around the world. It includes
+data of the comparison between suicide rates in adolescents across
+countries, between male and female adolescents, and in comparison to the
+rate of mental health resources available across the world. This table
+is included to provide the ability to compare suicide rates in different
+contexts, through a holistic view of the different variables affecting
+suicide rates. Through the data in the table, it was found that each
+country found a higher suicide rate for male adolescents in comparison
+to female adolescents, except for a handful of outlier countries such as
+Bangladesh, Fiji, Guatemala, Indonesia, Lesotho, Maldives, Morocco,
+Myanmar, Nepal, Paraguay, Sri Lanka, Suriname, Timor-Leste, and
+Uzbekistan. By comparing this data with other summary data in the table,
+it can be found that a couple of these outlier countries have a lower
+human resources rate in comparison to their suicide rates (Nepal,
+Myanmar, and Bangladesh). However, most of the countries in this section
+have unavailable information relating to their human resources, so a
+conclusion can be hard to draw relating human resources to the
+difference in suicide rates between male and female adolescents. Besides
+this, the table also allows one to directly look at suicide rates
+side-by-side with human resources rates in each country, being able to
+visually look through data around the world and draw connections. By
+looking at the table, one can find countries like Norway, Panama, and
+Peru having extremely low suicide rates and extremely high human
+resources rates, and looking at the specific numbers and statistics to
+back it. The charts don’t allow for this, since they are meant to be
+more visually pleasing, rather than allowing the viewer to hone in on
+the statistics.</p>
 </div>
 <div id="chart-one" class="section level2">
 <h2>Chart One</h2>

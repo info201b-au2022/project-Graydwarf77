@@ -41,11 +41,7 @@ combined_mental_health_df <- left_join(adolescent_suicide_rate_both_df, aggregat
 combined_mental_health_df <- left_join(combined_mental_health_df, adolescent_suicide_rate_male_df, by = "Country")
 
 combined_mental_health_df <- left_join(combined_mental_health_df, adolescent_suicide_rate_female_df, by = "Country") 
-rename(suicide_per_100K_10to19 = X10to19) %>% 
-  arrange(-suicide_per_100K_10to19) %>% 
-  group_by(suicide_per_100K_10to19)
 
 
 summary_table <- kable(combined_mental_health_df, format = "pipe", digits = 1)
 
-print(summary_table)
