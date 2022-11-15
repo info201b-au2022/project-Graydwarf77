@@ -39,7 +39,7 @@ japan <- df1 %>%
 all_region <- rbind(us, rwanda, brazil, egypt, india, malaysia, mexico, romania, japan)
 # View(all_region)
 
-
+# Creating chart for the selected countries with y axis "X10to19" and fill = Country
 chart_2 <- ggplot(all_region, aes(x="", y=X10to19, fill=Country)) +
   geom_bar(stat="identity", width=1, color = "black") +
   ggtitle("Suicide Rate Among Adolescents (per 100,000)") +
