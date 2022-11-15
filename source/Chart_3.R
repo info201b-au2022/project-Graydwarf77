@@ -1,4 +1,4 @@
-
+# Loading in packages and data
 library("ggplot2")
 library("dplyr")
 library("stringr")
@@ -7,17 +7,22 @@ library("tidyr")
 all_suicide_rates <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-Graydwarf77/main/data/Crude_suicide_rates.csv")
 human_resources <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-Graydwarf77/main/data/Human_Resources.csv")
 
+# Pulling adolescent suicide rates from all suicide rates
 adolescent_suicide_rate <- all_suicide_rates %>% 
   select(Country, Sex, X10to19) %>% 
   filter(str_detect(Sex, "Both sexes"))
 
+# aggregating the amount of HR resources per country
 aggregate_hr_by_country <- human_resources %>% 
   replace_na(list(Psychiatrists = 0, Nurses = 0, Social_workers = 0, Psychologists = 0)) %>% 
   mutate(aggregate_human_resources = Psychiatrists + Nurses + Social_workers + Psychologists) %>% 
   select(Country, aggregate_human_resources)
 
+# Combining adolescent suicide rates and HR resources
 combined_mental_health_df <- left_join(adolescent_suicide_rate, aggregate_hr_by_country, by = "Country")
 
+# Pulling countries to put on plot
+# Countries were chosen based of of geological diversity and completeness of data
 us <- combined_mental_health_df %>%
   filter(str_detect(Country, "United States"))
 
@@ -45,9 +50,10 @@ romania <- combined_mental_health_df %>%
 japan <- combined_mental_health_df %>%
   filter(str_detect(Country, "Japan"))
 
+# Combining data from chosen countries into one dataframe
 countries_being_observed <- rbind(us, rwanda, brazil, egypt, india, malaysia, mexico, romania, japan)
   
-  
+# Creating chart that compares adolescent suicide rates to mental health resources avalible
 chart_three <- ggplot(countries_being_observed, aes(x = aggregate_human_resources, y = X10to19, label = Country)) + 
   geom_point() +
   geom_text(hjust=.5, vjust=1.5) +
