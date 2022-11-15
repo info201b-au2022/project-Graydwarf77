@@ -1,5 +1,4 @@
 # setwd("~/Documents/info201/projectfiles")
-install.packages("ggplot2")
 library(ggplot2)
 library(tidyverse)
 
