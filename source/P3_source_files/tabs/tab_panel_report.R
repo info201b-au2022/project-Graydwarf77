@@ -9,7 +9,7 @@ tab_panel_report <-tabPanel(
   fluidRow(
     column(
       6,
-      includeMarkdown("tabs/report.md")
+      includeMarkdown("~/info201/project/project-Graydwarf77/source/P3_source_files/tabs/report.md")
     ),
     column(
       3,

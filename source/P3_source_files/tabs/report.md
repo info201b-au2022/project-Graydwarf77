@@ -1,89 +1,88 @@
-# Project Title
-Joe Xxx (xxx@uw.edu)         
-Cat  Xxx (xxx@uw.edu)     
-River Xxx (xxx@uw.edu)         
+# Analyzing Suicide Rates Among Adolescents:
+##### Authors
+* Grayson Ellard, graysone@uw.edu
+* Keaton Staggs, keatun@uw.edu
+* Yingxuan Wang, yingxw3@uw.edu
+* Netra Krishnan, netrak@uw.edu
+         
 
 *INFO-201: Technical Foundations of Informatics*  
 *The Information School*   
 *University of Washington*      
 *Winter 2022*  
 
-### Abstract
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+#### Rolling Rocks
 
-**Keywords:** xxx; xxx; xxx; xxx.
+### Abstract
+Our main question is suicide rates among adolescents in US. This question is important because concern about mental health issues among adolescents has increased worldwide and adolescents account for a growing share of suicide rates. To address the question, we will collect and count data on this topic, then analyze and hypothesize how we can reduce the stress of adolescents.
+
+### Keywords
+- Suicide
+- Causes for Suicide
+- Death Rate
+- Age Range
+- Mental Health
 
 ## Introduction
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-> et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+The biggest concern for adolescents around the world today is suicide due to stress and mental health issues. According to a study of 14 U.S. states published in the JAMA Pediatrics: Adolescents between the ages of 10 and 19 accounted for 6.5 percent of all suicides in 2020, a dramatic increase from previous years. Also, according to the National Foundation for Suicide Prevention, suicide is the third leading cause of death for adolescents and the second leading cause of death for college students. Adolescents commit suicide for many reasons, both internal and external. We collected data, explored, and classified them, summed up the main reasons for suicide by adolescents and wanted to urge everyone to effectively avoid them.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+## Problem Domain
+If one were to take a survey of adolescents around the world asking what their biggest concern was, there is a good chance that a many would say that they are over stressed and feel trapped in a dying world. This outlook, one of hopelessness and desperation, is likely to have contributed to the massive mental health and subsequently suicidal ideation crisis that plagues much of the world today. To paint an idea of the scope of the issue, Jane Brody of the New York Times reports “the rate of suicide among those aged 10 to 24 increased dramatically — by 56 percent — between 2007 and 2017”, a deeply troubling increase (Brody, 2019). Furthermore, the World Health Organization has found that “Depression is one of the leading causes of illness and disability among adolescents, and suicide is the second leading cause of death in people aged 15–19 years” (Adolescents and Young, 2022). There is a severe mental health crisis that is crippling the youth of the world, and it is our responsibility to act, and do what we can to shed light on this issue.
+### Human Values
+ The future health of an entire generation is at stake, and countless communities are at risk of falling apart if this ever-growing crisis is not addressed. Despite this, many still value privacy and status over mental health, aiming to sweep the issue under the rug as previous generations have. This has actively harmed many youths struggling with mental health or a mental illness, as nearly 60% of youth with major depression did not receive any mental health treatment (The State, 2022). Despite the pushback on mental health education and treatment, the time has come to treat the values of mental health and community with the respect they deserve.
+### Direct and Indirect Stakeholders
+ The most obvious direct stakeholders of this issue include adolescents and their families. Their experiences and values towards this topic vary to an extreme extent, leading to a plethora of different approaches to the suicidal ideation crisis. When one considers indirect stakeholders, it would be easier to name who is not one, as anybody who interacts with these direct stakeholders will be affected in some way because of how mental illness affects every facet of a direct stakeholder’s life.
+### Potential Benefits and Harms
+  Data scientists must be extremely careful with technology surrounding the issue of suicidal ideation. Technology can be exceedingly useful in both treatment and research efforts when it comes to the mental health crisis, but they must be cautious not to turn the unique stories of the millions of adolescents that are suffering from suicidal ideation into simple numbers. Ultimately, every person is at a different state when it comes to their mental health, and professionals seeking to utilize technology to fight suicidal ideation must keep this thought in mind if they want to be successful.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+## Research Questions
+1. How do suicide rates compare between male and female around the world? This question is important because analyzing this problem can give us a broader understanding of groups that are most strongly affected by suicidal ideation, which can help people develop mental health treatments that are more strongly targeted towards these groups.
 
-## Design Situation
-Use short sub-sections to describe your topic and the setting (that is, the sociotechnical situation), including project framing, human values, direct and indirect stakeholders, possible harms and benefits. See the Design Brief, section B.3. **Note**: You *must* include three citations to related work (URLs to similar work, high quality articles from the popular press, reseach papers, etc. ). You may find it helpful to include a figure.
+2. How do suicide rates for adolescents in the United States compare to other parts of the world? This is important because it educates us (as Americans) to the problem of suicidal ideation in adolescents around the globe. It allows Americans to understand the current mental health crisis on a more global scale, which could help us come up with global solutions, not just tunneling on the United States.
 
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-> et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-
-![covid daily case chart](icon-example.png)
-
-**NOTE:** the images are located in ```www/```
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-## Research questions
-3-5 research questions. What motivates the questions? Why are they important? See the Deign Brief, section B.4.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-* A
-* B
-* C
+3. How does the rate of human resources for mental health compare to suicide rate for countries around the world? This question is important because it allows us to see how suicide rates may be affected by a stronger or weaker infrastructure when it comes to mental health. This allows us to partially understand what solutions could be implemented to lower rates of adolescent suicide.
 
 ## The Dataset
-See Design Brief, sections B.5 (_Size and complexity_) and B.6 (_Data provenance_). Use short sub-sections for describing the size and complexity of the dataset and for describing the origins fo the data. 
+| Dataset      | Mental Health and Suicide Rates | Second Dataset     | Third Dataset     |
+| :---        |    :----:   |          :---: |           ---: |
+| Oberservations      | 656       | Here's this   | Here's this   |
+| Variables   | 16        | And more      |And more      |
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Illustrated through the Problem Domain, our main area of focus is on adolescents and the drastic rate of suicide as a result of poor mental health. In the first datafile from the _Mental Health and Suicide Rates_ dataset, _Crude Suicide Rates_, data has been collected for the suicide rates (per 100,000 people) for various countries across the world. This datafile includes variables for country, sex, and ranges of ages. Specifically, the column "10to19" will enable analysis on the suicide rates of adolescents within various countries, and in comparison to other age groups. Connecting to our first research question, the variable "sex" will be used to analyze the comparison between suicide rates regarding gender. Our second research question focuses on examining how suicide rates for adolescents within the United States compare to other countries around the world. Using the last variable within the datafile, we will be able to analyze the rates of suicide for ages ten to nineteen in the United States in comparison to other countries.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The datafile _Human Resources_ found within the _Mental Health and Suicide Rates_ dataset will be used to address our final research question. The _Human Resources_ datafile contains data for various countries during the year 2016, with variables for the amount of human resources working in the mental health sector. This data will allow comparison between the rate of human resources and the rate of suicides throughout many countries.
 
-```
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-> et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+##### Mental Health and Suicide Rates Data
 
-```
+**Citation:**
+Khanna, T. (2020). Mental Health and Suicide Rates. Kaggle.com. [URL.](https://www.kaggle.com/datasets/twinkle0705/mental-health-and-suicide-rates?select=Crude+suicide+rates.csv)
 
-## Findings 
-Assuming you answer your research questions, briefly describe the expected or possible implications for technologists, designers, and policymakers. 
+The _Crude Suicide Rates_ and _Human Resources_ data was collected from Twinkle Khanna. The data was published two years ago and was gathered for the year 2016. While the funder of the dataset is not stated, the publisher displays strong feelings for suicide prevention. Therefore, the dataset may be intended to spread awareness about the rates of suicide in hopes for greater suicide prevention. Since the source of the data is the World Health Organization (WHO), the data is likely to be valid and credible. The WHO holds a high standard for the technical accuracy of data, making the _Crude Suicide Rates_ dataset trustworthy. This dataset was obtained through [Kaggle](https://www.kaggle.com/), a platform for data scientists to publish various datasets. Since much of the data displayed in Kaggle has been provided by Data Scientists and Analysts, the majority of the data is credible.
 
-![covid daily case chart](image_example2.png)
+## Findings
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-**NOTE:** the images are located in ```www/```
 
 ## Discussion
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-## Conclusion 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+## Conclusion
 
-#### Acknowledgements
-| Is there anyone you would like to thank? A librarian who helped you with your research? A Teaching Assistant? A friend who helped you find your data? Say thank you in this section.|
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+## References
 
-## References 
-References  Include citations to your three references. See 2.0 Introduction. If you like, you can cite more than three references.  Please use a standard citation style of your choice.  See [Citing Sources](https://guides.lib.uw.edu/research/citations) at the UW Library
+Adolescent and young adult health [Fact sheet]. (2022, August 10). World Health Organization. https://www.who.int/news-room/fact-sheets/detail/adolescents-health-risks-and-solutions
 
-## Appendix A
+Brody, J. E. (2019, December 2). The Crisis in Youth Suicide. The New York Times. https://www.nytimes.com/2019/12/02/well/mind/the-crisis-in-youth-suicide.html
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+Charpignon, M.-L., Ontiveros, J., Sundaresan, S., Puri, A., Chandra, J., Mandl, K. D., & Majumder, M. S. (2022). Evaluation of suicides among US adolescents during the covid-19 pandemic. JAMA Pediatrics, 176(7), 724. https://doi.org/10.1001/jamapediatrics.2022.0515
 
+Khanna, T. (2020). Mental Health and Suicide Rates [Table]. kaggle. https://www.kaggle.com/datasets/twinkle0705/mental-health-and-suicide-rates?select=Crude+suicide+rates.csv
+
+The State of Mental Health in America. (2022). Mental Health America. https://mhanational.org/issues/state-mental-health-america
+
+## Appendix A: Questions
+
+Our group currently has no questions. Thank you.
 
 
 
