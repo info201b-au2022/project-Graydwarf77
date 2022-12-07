@@ -2,7 +2,7 @@
 
 library(shiny)
 
-source("~/info201/project/project-Graydwarf77/source/P3_source_files/app_server.R")
+source("../app_server.R")
 
 
   chart2_sidebar <- sidebarPanel(
