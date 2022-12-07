@@ -29,12 +29,12 @@ unique_countries <- chart2_dataset %>%
   distinct(country)
 
 # Chart 3 Wrangling
-variable_country_filter_plot3 <- function(var_input) {
-  plot3_df <- combined_mental_health_df %>% 
-    select(Country, X10to19, all_of(var_input))
+variable_country_filter_plot3 <- function(country_input_chart3, chart3_Var) {
+  selected_countries_df <- combined_mental_health_df %>% 
+    filter(Country %in% country_input_chart3) %>% 
+    select(Country, X10to19, all_of(chart3_Var))
+  return(selected_countries_df)
 }
-
-test <- variable_country_filter_plot3("Nurses")
 
 server <- function(input, output) {
   output$chart2_plot <- renderPlotly({
@@ -46,8 +46,8 @@ server <- function(input, output) {
            y= "Suicide Rate (Per 100,000)")
   })
   output$chart3 <- renderPlotly({
-    ggplot(variable_country_filter_plot3(input$chart3_xvar, input$chart3_country)) +
-      geom_point()
+    ggplot(variable_country_filter_plot3(input$chart3_country, input$chart3_xvar)) +
+      geom_point(aes_string(x = input$chart3_xvar, y = "X10to19", label = "Country"))
   })
 }
 

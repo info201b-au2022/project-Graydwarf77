@@ -16,15 +16,16 @@ sidebar_content_chart3 <- sidebarPanel(
       "Psychiatrists",
       "Nurses",
       "Social Workers" = "Social_workers",
-      "Psycologists"
+      "Psychologists"
     ),
-    selected = "Nurses"
+    selected = "Psychiatrists"
   ),
   selectInput(
     inputId = "chart3_country",
     label = "Please Select Which Countries To View",
     choices = mental_health_countries,
-    multiple = TRUE
+    multiple = TRUE,
+    selected = "United States of America"
   )
 )
 
