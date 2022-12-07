@@ -31,7 +31,6 @@ unique_countries <- chart2_dataset %>%
 server <- function(input, output) {
   output$chart2_plot <- renderPlotly({
     plot2_title <- paste0("Suicide Rates Comparing the U.S. and ", input$selectCountry, " for (Ages 15-24, per 100,000)")
-    
     ggplot(data = country_year_filter_plot2(input$changeYear, input$selectCountry, input$gender)) +
       geom_bar(aes(x = country, y = suicides.100k.pop, fill = country), stat = "identity") +
       ggtitle(plot2_title) +
