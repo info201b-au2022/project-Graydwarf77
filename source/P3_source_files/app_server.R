@@ -16,6 +16,7 @@ combined_mental_health_df <- right_join(adolescent_suicide_rate, human_resources
 mental_health_countries <- combined_mental_health_df %>% 
   select(Country)
 
+
 server <- function(input, output) {
     # TBD
 }
