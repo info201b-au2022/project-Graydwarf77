@@ -20,7 +20,11 @@ source("app_server.R")
   
   # Show a plot of the generated distribution
  chart2_mainbar <- mainPanel(
-    plotlyOutput("chart2_plot")
+    plotlyOutput("chart2_plot"),
+    p("Bar graph depicting the comparison in suicide rate for the United States in comparison to other countries.
+      The graph can be customized to display a certain gender and a selection of different years.
+      Additionally, various countries can be selected to compare to the United States. Revealed through the graph,
+      the United States has a high suicide rate for both males and females in comparison to the various other countries.")
   )
 
 
