@@ -28,6 +28,14 @@ country_year_filter_plot2 <- function(year_input, country_input, gender_input) {
 unique_countries <- chart2_dataset %>%
   distinct(country)
 
+# Chart 3 Wrangling
+variable_country_filter_plot3 <- function(var_input) {
+  plot3_df <- combined_mental_health_df %>% 
+    select(Country, X10to19, all_of(var_input))
+}
+
+test <- variable_country_filter_plot3("Nurses")
+
 server <- function(input, output) {
   output$chart2_plot <- renderPlotly({
     plot2_title <- paste0("Suicide Rates Comparing the U.S. and ", input$selectCountry, " for (Ages 15-24, per 100,000)")
@@ -36,6 +44,10 @@ server <- function(input, output) {
       ggtitle(plot2_title) +
       labs(x = "Countries",
            y= "Suicide Rate (Per 100,000)")
+  })
+  output$chart3 <- renderPlotly({
+    ggplot(variable_country_filter_plot3(input$chart3_xvar, input$chart3_country)) +
+      geom_point()
   })
 }
 
