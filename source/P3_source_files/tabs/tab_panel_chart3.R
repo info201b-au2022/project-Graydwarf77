@@ -1,6 +1,6 @@
 # tab_panel_chart3
 
-source("~/info201/project/project-Graydwarf77/source/P3_source_files/app_server.R")
+source("app_server.R")
 
 library(shiny)
 
