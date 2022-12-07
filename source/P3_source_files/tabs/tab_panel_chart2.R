@@ -26,7 +26,7 @@ source("~/info201/project/project-Graydwarf77/source/P3_source_files/app_server.
 
 tab_panel_chart2 <-tabPanel(
   # Application title
-  titlePanel("Analyzing Suicide Rate for Ages 15-24"),
+  # titlePanel("Analyzing Suicide Rate for Ages 15-24"),
   sidebarLayout(
     chart2_sidebar,
     chart2_mainbar

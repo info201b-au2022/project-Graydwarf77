@@ -19,12 +19,13 @@ mental_health_countries <- combined_mental_health_df %>%
 
 # Chart 2 Wrangling
 country_year_filter_plot2 <- function(year_input, country_input, gender_input) {
-  plot2_df <- dataset %>%
+  plot2_df <- chart2_dataset %>%
     filter(year == year_input) %>%
     filter(country == "United States" | country == country_input) %>%
     filter(sex == gender_input) %>%
     filter(age == "15-24 years") }
-unique_countries <- dataset %>%
+
+unique_countries <- chart2_dataset %>%
   distinct(country)
 
 server <- function(input, output) {
