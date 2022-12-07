@@ -2,7 +2,7 @@
 
 library(shiny)
 
-source("../app_server.R")
+source("app_server.R")
 
 
   chart2_sidebar <- sidebarPanel(
@@ -25,8 +25,8 @@ source("../app_server.R")
 
 
 tab_panel_chart2 <-tabPanel(
-  # Application title
-  # titlePanel("Analyzing Suicide Rate for Ages 15-24"),
+  "Chart 2",
+  p("This is Chart 2"),
   sidebarLayout(
     chart2_sidebar,
     chart2_mainbar
