@@ -43,14 +43,15 @@ If one were to take a survey of adolescents around the world asking what their b
 3. How does the rate of human resources for mental health compare to suicide rate for countries around the world? This question is important because it allows us to see how suicide rates may be affected by a stronger or weaker infrastructure when it comes to mental health. This allows us to partially understand what solutions could be implemented to lower rates of adolescent suicide.
 
 ## The Dataset
-| Dataset      | Mental Health and Suicide Rates | Second Dataset     | Third Dataset     |
-| :---        |    :----:   |          :---: |           ---: |
-| Oberservations      | 656       | Here's this   | Here's this   |
-| Variables   | 16        | And more      |And more      |
+| Dataset      | Mental Health and Suicide Rates | Suicide Rates Overview 1985 to 2016     
+| Observations      | 656       | 27820   
+| Variables   | 16        | 12     
 
 Illustrated through the Problem Domain, our main area of focus is on adolescents and the drastic rate of suicide as a result of poor mental health. In the first datafile from the _Mental Health and Suicide Rates_ dataset, _Crude Suicide Rates_, data has been collected for the suicide rates (per 100,000 people) for various countries across the world. This datafile includes variables for country, sex, and ranges of ages. Specifically, the column "10to19" will enable analysis on the suicide rates of adolescents within various countries, and in comparison to other age groups. Connecting to our first research question, the variable "sex" will be used to analyze the comparison between suicide rates regarding gender. Our second research question focuses on examining how suicide rates for adolescents within the United States compare to other countries around the world. Using the last variable within the datafile, we will be able to analyze the rates of suicide for ages ten to nineteen in the United States in comparison to other countries.
 
 The datafile _Human Resources_ found within the _Mental Health and Suicide Rates_ dataset will be used to address our final research question. The _Human Resources_ datafile contains data for various countries during the year 2016, with variables for the amount of human resources working in the mental health sector. This data will allow comparison between the rate of human resources and the rate of suicides throughout many countries.
+
+The dataset _"Suicide Rates Overview 1985 to 2016"_ will also be used to further analyze the suicide rates for various countries throughout the world. However, this dataset includes suicide rate data for the years 1985 to 2016, which will allow for more patterns in data to be identified regarding how suicide rate has changed as years progress. By having data for multiple years, we are able to draw more conclusions as to how suicide rate has changed over the years, as well as how suicide rate for different countries compare over various years.
 
 ##### Mental Health and Suicide Rates Data
 
@@ -69,10 +70,18 @@ When considering the data as a whole, it was found that male adolescent suicide 
 The United States has an adolescent suicide rates of 6.9 people per 100,000. When this is compared to other countries around the world, it can be seen that it is a relatively middle of the pack number. There are many countries that have higher a higher adolescent suicide rate than the United States, such as India with 11.2, Nicaragua with 11.6, or Iceland with 10.8. Furthermore, lots of countries have adolescent suicide rates lower than the United States, such as Belgium with 3.6 or the Philippines with 2.5. The United States is around the middle when comparing adolescent suicide rates to other countries, and we will explore more about what this means in the discussion section.
 
 #### Question Three: How does the rate of human resources for mental health compare to suicide rate for countries around the world?
-
+Interestingly, it seems that mental health resources do not necessarily lower suicide rates around the world. Countries that have a lower rates of psychiatrists and psychologists such as Mexico, Kenya, or Cambodia actually have roughly comparable adolescent suicide rates than some countries which have high rates of psychiatrists and psychologists such as Sweden or Poland. Although, there are some countries that have a high number of mental health professionals, such as Israel, which also have very low adolescent suicide rates. 
 
 ## Discussion
+In this section we will discuss the importance and implications of our findings. 
 
+Looking at the findings for question one can tell us many different things. Firstly, it is immediately clear that in much of the world, adolescent males are at a higher risk of suicide than adolescent females. This is important because it then brings us to our next question: why is this? While that question is out of the scope of this report, it offers a logical next step for where to study in order to help fight against the adolescent suicide crisis. The findings from this question reveal another important thing to remember, which is to not over generalize data and trends. While male adolescents have a higher suicide rate worldwide, there are many countries that have a higher rate of suicide for female adolescents. If one were to develop an outreach program for adolescent suicide, it would be important for them to observe the trends in that specific region, not just the country or world for that matter. 
+
+
+The conclusion we drew from research question two is that the United States has a middle of the road or slightly above average rates of adolescent suicide compared to other countries around the world. Considering that the United States is the richest country in the world, and that it is supposedly also a worldwide hub for medical treatment and health research, it is evident from this conclusion that more needs to be done for mental health research and treatment in the United States. Furthermore, the world as a whole needs to implement health policies aimed at bringing adolescent suicide rates down.
+
+
+The findings from our third question implies that mental health resources alone will not necessarily bring down suicide rates. Specifically, we can look at the United States, which has some of the highest levels of mental health resources, yet still has a relatively high level of adolescent suicide rates. This implies to us that the current way mental health resources are being implemented may not be the best solution for bringing adolescent suicide rates down. Furthermore, it also tells us that suicide rates are affected by a lot more than just what resources are available. If we are to curb adolescent suicide rates world-wide, it will likely include overhauling the current system of mental health resources, while also expanding how treatment is carried out.
 
 ## Conclusion
 
