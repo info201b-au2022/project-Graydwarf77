@@ -1,6 +1,7 @@
 # tab_panel_chart1
 
 library(shiny)
+library(plotly)
 
 tab_panel_chart1 <-tabPanel(
   "Chart 1",
