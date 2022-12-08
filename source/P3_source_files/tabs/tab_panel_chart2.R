@@ -30,7 +30,7 @@ source("app_server.R")
 
 tab_panel_chart2 <-tabPanel(
   "Chart 2",
-  h1("This Is Chart 2"),
+  h1("Chart 2: How the United States Compares to Other Countries in Adolescent Suicide Rates"),
   sidebarLayout(
     chart2_sidebar,
     chart2_mainbar

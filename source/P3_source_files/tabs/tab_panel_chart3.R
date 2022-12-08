@@ -31,6 +31,7 @@ sidebar_content_chart3 <- sidebarPanel(
 
 tab_panel_chart3 <-tabPanel(
     "Chart 3",
+    h1("Chart Three: Comparing Mental Health Resources to Adolescent Suicide Rates by Country"),
     sidebarLayout(
       sidebar_content_chart3,
       main_content_chart3
