@@ -31,7 +31,6 @@ sidebar_content_chart3 <- sidebarPanel(
 
 tab_panel_chart3 <-tabPanel(
     "Chart 3",
-    p("This is chart 3."),
     sidebarLayout(
       sidebar_content_chart3,
       main_content_chart3

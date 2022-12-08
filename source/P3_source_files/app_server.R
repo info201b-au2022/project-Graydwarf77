@@ -36,7 +36,7 @@ variable_country_filter_plot3 <- function(country_input_chart3, chart3_Var) {
   return(selected_countries_df)
 }
 
-server <- function(input, output) {
+server <- function(input, output, session) {
   output$chart2_plot <- renderPlotly({
     plot2_title <- paste0("Suicide Rates Comparing the U.S. and ", input$selectCountry, " for (Ages 15-24, per 100,000)")
     ggplot(data = country_year_filter_plot2(input$changeYear, input$selectCountry, input$gender)) +
@@ -52,6 +52,34 @@ server <- function(input, output) {
            y = "Suicide Rates for Ages 10 to 19 per 100,000 People",
            title = "Analysis of Suicide Rates in Adolescents compared to Mental Health Resources") 
   })
+  # Chart 1 Code
+  # Group the sexes and find the mean of their respective suicide rates
+  
+  data <- reactive({
+    req(input$sel_Country)
+    suiciderates_by_sex <- all_suicide_rates %>%
+      filter(Country %in% input$sel_Country) %>%
+      group_by(Sex) %>%
+      summarize(Suicide_rates_adolescents = mean(X10to19))
+  })
+  # Update country inputs based on countries from the dataset
+  observe({
+    updateSelectInput(session,
+                      "sel_Country",
+                      choices = all_suicide_rates$Country)
+  })
+  # Plot the 'suicide_rates' data set, with sex on the x-axis and suicide rates per 100,000
+  # 10 to 19-year-olds on the y-axis
+  output$plot_1 <- renderPlotly({
+    Chart_1 <- ggplot(data()) +
+      geom_col(mapping = aes(x = Sex, y = Suicide_rates_adolescents, fill = Sex)) +
+      ylab("Suicide Rates Per 100,000 Adolescents") +
+      ggtitle("Comparing Suicide Rates Among Male and Female Adolescents")
+    Chart_1
+  })
+  
 }
+  
+
 
 

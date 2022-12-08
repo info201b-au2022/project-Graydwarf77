@@ -30,7 +30,7 @@ source("app_server.R")
 
 tab_panel_chart2 <-tabPanel(
   "Chart 2",
-  p("This is Chart 2"),
+  h1("This Is Chart 2"),
   sidebarLayout(
     chart2_sidebar,
     chart2_mainbar

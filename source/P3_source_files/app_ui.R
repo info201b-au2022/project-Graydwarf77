@@ -9,23 +9,12 @@ source("tabs/tab_panel_summary.R")
 source("tabs/tab_panel_report.R")
 
 ui <- navbarPage(
-  title = "Project Example",
+  title = "Analyzing Adolescent Suicide Rates",
   position = "fixed-top",
-
+  
   # A simple header
   header = list(
-    tags$style(type = "text/css", "body {padding-top: 70px;}"),
-    hr(),
-    HTML("... Project Header... "),
-    hr()
-  ),
-
-  # A simple footer
-  footer = list(
-    tags$style(type = "text/css", "body {padding-top: 70px;}"),
-    hr(),
-    HTML("... Project Footer ... "),
-    hr()
+    tags$style(type = "text/css", "body {padding-top: 70px;}")
   ),
 
   # The project introduction
