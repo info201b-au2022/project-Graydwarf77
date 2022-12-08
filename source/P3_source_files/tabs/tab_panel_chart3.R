@@ -5,7 +5,13 @@ source("app_server.R")
 library(shiny)
 
 main_content_chart3 <- mainPanel(
-  plotlyOutput("chart3")
+  plotlyOutput("chart3"),
+  p("This chart depicts a scatterplot, with a specific kind of mental health professional on the x-axis, and the adolescent suicide rate on the y-axis.
+    both of these values are per 100,000 people. Some trends we noticed in the graph are that it seems that mental health resources do not necessarily 
+    lower suicide rates around the world. Countries that have a lower rates of psychiatrists and psychologists such as Mexico, Kenya, or Cambodia 
+    actually have roughly comparable adolescent suicide rates than some countries which have high rates of psychiatrists and psychologists such as 
+    Sweden or Poland. Although, there are some countries that have a high number of mental health professionals, such as Israel, which also have very 
+    low adolescent suicide rates. ")
 )
 
 sidebar_content_chart3 <- sidebarPanel(
