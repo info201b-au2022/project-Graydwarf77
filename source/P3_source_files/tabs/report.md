@@ -84,8 +84,7 @@ The conclusion we drew from research question two is that the United States has 
 The findings from our third question implies that mental health resources alone will not necessarily bring down suicide rates. Specifically, we can look at the United States, which has some of the highest levels of mental health resources, yet still has a relatively high level of adolescent suicide rates. This implies to us that the current way mental health resources are being implemented may not be the best solution for bringing adolescent suicide rates down. Furthermore, it also tells us that suicide rates are affected by a lot more than just what resources are available. If we are to curb adolescent suicide rates world-wide, it will likely include overhauling the current system of mental health resources, while also expanding how treatment is carried out.
 
 ## Conclusion
-
-
+The mental health crisis that the world's youth are currently facing will continue to be a monumental problem until more is done to address it. Every day, adolescents around the world make the decision to end their own life, and we as a society need to change that fact. From this report, we learned several key things to keep in mind while fighting against poor mental health. Firstly, we need to ensure that the actions we take target the most vulnerable groups in each specific area. On average, it will tend to be male adolescents who are at a higher risk for suicide, but it is strongly dependent on where assistance is taking place. Furthermore, this should not mean that other people groups, however they may be grouped, should be ignored while offering mental health assistance and resources. As citizens of the United States, we must also understand our situation in a global context. As the richest and one of the most scientifically advanced countries in the world, it is our duty to develop new practices, treatments, and methods for mental health that can be used both in America and abroad. We must also understand how the current system of mental healthcare is situated, and how we can improve upon it. It is no doubt that the individual providers of mental health care, from nurses to psychologists, are working their hardest to curb adolescent suicide rates, so it is important that adequate assistance and support is provided to them. Furthermore, adolescents should be educated on the danger of mental health disorders such as anxiety and depression so that they can advocate for themselves better and be aware of the warnings signs. The truth is, the current mental health crisis around the world affects so many people of all different kinds of age groups, and this issue will not be solved overnight. Although, if we as Americans and students and teachers and parents work towards and advocate for the fight against the mental health crisis, meaningful change and healing can be done.
 ## References
 
 Adolescent and young adult health [Fact sheet]. (2022, August 10). World Health Organization. https://www.who.int/news-room/fact-sheets/detail/adolescents-health-risks-and-solutions
@@ -98,9 +97,7 @@ Khanna, T. (2020). Mental Health and Suicide Rates [Table]. kaggle. https://www.
 
 The State of Mental Health in America. (2022). Mental Health America. https://mhanational.org/issues/state-mental-health-america
 
-## Appendix A: Questions
 
-Our group currently has no questions. Thank you.
 
 
 

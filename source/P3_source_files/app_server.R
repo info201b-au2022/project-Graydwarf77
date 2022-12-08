@@ -47,7 +47,7 @@ server <- function(input, output, session) {
   })
   output$chart3 <- renderPlotly({
     ggplot(variable_country_filter_plot3(input$chart3_country, input$chart3_xvar)) +
-      geom_point(aes_string(x = input$chart3_xvar, y = "X10to19")) +
+      geom_point(aes_string(x = input$chart3_xvar, y = "X10to19", label = "Country")) +
       labs(x = paste0(input$chart3_xvar, " Per 100,000 People"), 
            y = "Suicide Rates for Ages 10 to 19 per 100,000 People",
            title = "Analysis of Suicide Rates in Adolescents compared to Mental Health Resources") 
