@@ -36,7 +36,7 @@ If one were to take a survey of adolescents around the world asking what their b
   Data scientists must be extremely careful with technology surrounding the issue of suicidal ideation. Technology can be exceedingly useful in both treatment and research efforts when it comes to the mental health crisis, but they must be cautious not to turn the unique stories of the millions of adolescents that are suffering from suicidal ideation into simple numbers. Ultimately, every person is at a different state when it comes to their mental health, and professionals seeking to utilize technology to fight suicidal ideation must keep this thought in mind if they want to be successful.
 
 ## Research Questions
-1. How do suicide rates compare between male and female around the world? This question is important because analyzing this problem can give us a broader understanding of groups that are most strongly affected by suicidal ideation, which can help people develop mental health treatments that are more strongly targeted towards these groups.
+1. How do suicide rates compare between male and female adolescents around the world? This question is important because analyzing this problem can give us a broader understanding of groups that are most strongly affected by suicidal ideation, which can help people develop mental health treatments that are more strongly targeted towards these groups.
 
 2. How do suicide rates for adolescents in the United States compare to other parts of the world? This is important because it educates us (as Americans) to the problem of suicidal ideation in adolescents around the globe. It allows Americans to understand the current mental health crisis on a more global scale, which could help us come up with global solutions, not just tunneling on the United States.
 
@@ -60,7 +60,13 @@ Khanna, T. (2020). Mental Health and Suicide Rates. Kaggle.com. [URL.](https://w
 The _Crude Suicide Rates_ and _Human Resources_ data was collected from Twinkle Khanna. The data was published two years ago and was gathered for the year 2016. While the funder of the dataset is not stated, the publisher displays strong feelings for suicide prevention. Therefore, the dataset may be intended to spread awareness about the rates of suicide in hopes for greater suicide prevention. Since the source of the data is the World Health Organization (WHO), the data is likely to be valid and credible. The WHO holds a high standard for the technical accuracy of data, making the _Crude Suicide Rates_ dataset trustworthy. This dataset was obtained through [Kaggle](https://www.kaggle.com/), a platform for data scientists to publish various datasets. Since much of the data displayed in Kaggle has been provided by Data Scientists and Analysts, the majority of the data is credible.
 
 ## Findings
+In this section we will discuss the findings that we got during our research, and answer our research questions along the way. 
 
+#### Question One: How do suicide rates compare between male and female adolescents around the world?
+When considering the data as a whole, it was found that male adolescent suicide rates are nearly double that of female adolescent rates around the world. In some larger countries, such as the United States and China, male suicide rates continued the trend of being higher than female rates. This was not the case in all large countries though, as female suicide rates in India were noticeably higher than male. In our data set, it was rare for suicide rates to be similar between male and female, as Guyana and Bolivia were the only countries with very similar suicide rates for both genders. Overall, we see from this data that male adolescents are at a higher risk of suicide than female adolescents when looking at data around the world, but it is important to remember that this is a summary, and that things are different from country to country.
+
+#### Question Two: How do suicide rates for adolescents in the United States compare to other parts of the world?
+The United States has an adolescent suicide rates of 6.9 people per 100,000. When this is compared to other countries around the world, it can be seen that it is a relatively middle of the pack number. There are many countries that have higher a higher adolescent suicide rate than the United States, such as India with 11.2, Nicaragua with 11.6, or Iceland with 10.8. Furthermore, lots of countries have adolescent suicide rates lower than the United States, such as Belgium with 3.6 or the Philippines with 2.5.
 
 ## Discussion
 
